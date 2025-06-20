@@ -72,7 +72,7 @@ st.set_page_config(page_title="Cogni Package Recommendation", page_icon="🧠", 
 st.title("🎯 Cogni: Your Personalized Package Recommendation")
 
 # ---- PARSE QUERY PARAMETERS (Updated for newer Streamlit) ----
-query_params = st.query_params  # Updated from st.experimental_get_query_params()
+query_params = st.query_params  
 recommended_package = None
 recommended_seats = None
 
@@ -84,15 +84,9 @@ if "tier" in query_params:
 if "seats" in query_params:
     recommended_seats = unquote(str(query_params["seats"]))
 
-# Fallback for testing - remove this in production
-if not recommended_package:
-    st.info("🔧 **Testing Mode**: No package specified in URL. Showing Fresh Start as example.")
-    recommended_package = "Fresh Start"
-    recommended_seats = "4"
 
-if recommended_package not in PACKAGES:
-    st.error(f"Package '{recommended_package}' not found!")
-    st.write("Available packages:", list(PACKAGES.keys()))
+if not recommended_package or not recommended_seats:
+    st.warning("No recommendation received. Please complete the chatbot conversation.")
     st.stop()
 
 # ---- SHOW RECOMMENDATION ----

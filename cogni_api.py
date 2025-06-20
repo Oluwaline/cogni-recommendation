@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
+from typing import Optional  # Added missing import
 
 app = FastAPI()
 
@@ -17,6 +18,10 @@ class InputData(BaseModel):
     org_type: str
     team_size: str
     client_volume: str
+    service: Optional[str] = None
+    specialization: Optional[str] = None
+    timeline: Optional[str] = None
+    features: Optional[str] = None
 
 # --- Sales messages for each package ---
 SALES_MESSAGES = {
@@ -43,7 +48,7 @@ SALES_MESSAGES = {
     "Enterprise Access (Insurance & EAS)": (
         "Thank you for providing your details. Based on your responses, we recommend the *Enterprise Access (Insurance & EAS)* package with {seats} seats. "
         "This package offers API integration, branded self-assessments, employer group modules, and unlimited monitoring tools—perfect for insurance providers and EAS programs. "
-        "[Click here to view your personalized proposal and discuss your organization’s unique needs]({next_steps})."
+        "[Click here to view your personalized proposal and discuss your organization's unique needs]({next_steps})."
     ),
 }
 
@@ -66,31 +71,48 @@ def predict_package(org_type, team_size, client_volume):
         else:
             return 'Community Access', 20
 
+# Add a test endpoint
+@app.get("/")
+def read_root():
+    return {"message": "Cogni API is running"}
+
+# Add a health check endpoint
+@app.get("/health")
+def health_check():
+    return {"status": "healthy"}
+
 @app.post("/getRecommendation")
 def get_recommendation(data: InputData):
-    package, seats = predict_package(
-        data.org_type, data.team_size, data.client_volume
-    )
-    next_steps = f"https://cogni-recommendation-chuiv5x8slzxktq3mzbb5p.streamlit.app/?tier={package.replace(' ', '%20')}&seats={seats}"
+    try:
+        print(f"Received data: {data}")  # Debug logging
+        package, seats = predict_package(
+            data.org_type, data.team_size, data.client_volume
+        )
+        print(f"Recommended package: {package}, seats: {seats}")  # Debug logging
 
-    key_features = {
-        "Fresh Start": "Self-guided tools, AI self-assessment, 1 group session/month, provider dashboard",
-        "Practice Plus": "Full AI suite, group modules, custom reports, real-time analytics, provider dashboard",
-        "Community Access": "Multilingual AI tools, scalable group support, onboarding support, volume discounts",
-        "Enterprise Care (Public Health)": "Unlimited users, robust analytics, API access, client monitoring & support",
-        "Enterprise Access (Insurance & EAS)": "API integration, branded self-assessments, usage analytics, outcome dashboards"
-    }.get(package, "Comprehensive support and analytics")
+        
+        next_steps = f"https://cogni-recommendation-chuiv5x8slzxktq3mzbb5p.streamlit.app/?tier={package.replace(' ', '%20')}&seats={seats}"
+        
+        key_features = {
+            "Fresh Start": "Self-guided tools, AI self-assessment, 1 group session/month, provider dashboard",
+            "Practice Plus": "Full AI suite, group modules, custom reports, real-time analytics, provider dashboard",
+            "Community Access": "Multilingual AI tools, scalable group support, onboarding support, volume discounts",
+            "Enterprise Care (Public Health)": "Unlimited users, robust analytics, API access, client monitoring & support",
+            "Enterprise Access (Insurance & EAS)": "API integration, branded self-assessments, usage analytics, outcome dashboards"
+        }.get(package, "Comprehensive support and analytics")
 
-    sales_message = SALES_MESSAGES.get(package, "").format(seats=seats, next_steps=next_steps)
+        sales_message = SALES_MESSAGES.get(package, "").format(seats=seats, next_steps=next_steps)
 
-    return {
-        "recommended_package": package,
-        "recommended_seats": seats,
-        "estimated_pricing": f"${seats * 49}",
-        "key_features": key_features,
-        "next_steps": next_steps,
-        "sales_message": sales_message
-    }
+        return {
+            "recommended_package": package,
+            "recommended_seats": seats,
+            "estimated_pricing": f"${seats * 49}",
+            "key_features": key_features,
+            "next_steps": next_steps,
+            "sales_message": sales_message
+        }
+    except Exception as e:
+        return {"error": str(e)}
 
 if __name__ == "__main__":
     import uvicorn
