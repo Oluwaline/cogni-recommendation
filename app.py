@@ -71,33 +71,52 @@ PACKAGES = {
 st.set_page_config(page_title="Cogni Package Recommendation", page_icon="🧠", layout="wide")
 st.title("🎯 Cogni: Your Personalized Package Recommendation")
 
-# ---- PARSE QUERY PARAMETERS ----
-query_params = st.experimental_get_query_params()
+# ---- PARSE QUERY PARAMETERS (Updated for newer Streamlit) ----
+query_params = st.query_params  # Updated from st.experimental_get_query_params()
 recommended_package = None
 recommended_seats = None
 
-if "tier" in query_params:
-    recommended_package = unquote(query_params["tier"][0])
-if "seats" in query_params:
-    recommended_seats = unquote(query_params["seats"][0])
+# Debug info (remove this in production)
+st.sidebar.write("Debug - Query params:", dict(query_params))
 
-if not recommended_package or recommended_package not in PACKAGES:
-    st.warning("No recommended package provided! Please use the personalized link from your chatbot.")
+if "tier" in query_params:
+    recommended_package = unquote(str(query_params["tier"]))
+if "seats" in query_params:
+    recommended_seats = unquote(str(query_params["seats"]))
+
+# Fallback for testing - remove this in production
+if not recommended_package:
+    st.info("🔧 **Testing Mode**: No package specified in URL. Showing Fresh Start as example.")
+    recommended_package = "Fresh Start"
+    recommended_seats = "4"
+
+if recommended_package not in PACKAGES:
+    st.error(f"Package '{recommended_package}' not found!")
+    st.write("Available packages:", list(PACKAGES.keys()))
     st.stop()
 
 # ---- SHOW RECOMMENDATION ----
-st.subheader(f"🎉 Recommended Package: {recommended_package}")
-st.write(f"**Recommended Seats:** {recommended_seats if recommended_seats else 'N/A'}")
+st.success(f"🎉 **Recommended Package: {recommended_package}**")
+
+if recommended_seats:
+    st.write(f"**Recommended Seats:** {recommended_seats}")
 
 package = PACKAGES[recommended_package]
-st.markdown(f"**Ideal for:** {package['ideal_client']}")
-st.markdown(f"**Capacity:** {package['seats']}")
-st.markdown(f"**Pricing:** {package['pricing']}")
-st.markdown("**Key Features:**")
-for feature in package['features']:
-    st.write(f"- {feature}")
 
-st.success("This is the package recommended for you based on your needs.")
+# Create columns for better layout
+col1, col2 = st.columns([2, 1])
+
+with col1:
+    st.markdown(f"**Ideal for:** {package['ideal_client']}")
+    st.markdown(f"**Capacity:** {package['seats']}")
+    st.markdown(f"**Pricing:** {package['pricing']}")
+    
+    st.markdown("**Key Features:**")
+    for feature in package['features']:
+        st.write(f"✅ {feature}")
+
+with col2:
+    st.info("📞 **Ready to get started?**\n\nContact our team:\n- Email: support@cogni.ai\n- Phone: (555) 123-4567")
 
 st.write("---")
 st.subheader("🔍 Not sure? Explore All Packages")
@@ -105,23 +124,28 @@ st.subheader("🔍 Not sure? Explore All Packages")
 # ---- COMPARISON & SWITCH ----
 tab_list = list(PACKAGES.keys())
 tabs = st.tabs(tab_list)
+
 for tab, pkg_name in zip(tabs, tab_list):
     with tab:
         p = PACKAGES[pkg_name]
+        
+        if pkg_name == recommended_package:
+            st.success("🎯 **This is your recommended package**")
+        
         st.markdown(f"**Ideal for:** {p['ideal_client']}")
         st.markdown(f"**Capacity:** {p['seats']}")
         st.markdown(f"**Pricing:** {p['pricing']}")
         st.markdown("**Key Features:**")
         for f in p['features']:
-            st.write(f"- {f}")
-        if pkg_name == recommended_package:
-            st.success("🎯 This is your recommended package.")
-        else:
-            url = f"?tier={pkg_name.replace(' ', '%20')}&seats={recommended_seats if recommended_seats else ''}"
+            st.write(f"✅ {f}")
+        
+        if pkg_name != recommended_package:
             if st.button(f"Select {pkg_name}", key=f"select_{pkg_name}"):
-                st.experimental_set_query_params(tier=pkg_name, seats=recommended_seats if recommended_seats else '')
+                # Update query params and rerun
+                st.query_params.tier = pkg_name
+                if recommended_seats:
+                    st.query_params.seats = recommended_seats
                 st.rerun()
 
 st.write("---")
 st.markdown("**Need more help? Contact our sales team at [support@cogni.ai](mailto:support@cogni.ai) or call (555) 123-4567**")
-

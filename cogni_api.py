@@ -71,7 +71,8 @@ def get_recommendation(data: InputData):
     package, seats = predict_package(
         data.org_type, data.team_size, data.client_volume
     )
-    next_steps = f"https://your-streamlit.app/?tier={package.replace(' ', '%20')}&seats={seats}"
+    next_steps = f"https://cogni-recommendation-chuiv5x8slzxktq3mzbb5p.streamlit.app/?tier={package.replace(' ', '%20')}&seats={seats}"
+
     key_features = {
         "Fresh Start": "Self-guided tools, AI self-assessment, 1 group session/month, provider dashboard",
         "Practice Plus": "Full AI suite, group modules, custom reports, real-time analytics, provider dashboard",
