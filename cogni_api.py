@@ -6,38 +6,33 @@ import uvicorn
 
 
 def map_chatbot_to_api_values(org_type, team_size, client_volume=None):
-    def normalize(text):
-        if not text:
-            return ""
-        return text.replace("–", "-").replace("—", "-").strip().lower()
     org_type_mapping = {
-        normalize("Insurance Provider / EAS"): "Insurance Provider/EAS",
-        normalize("Mental Health Practitioner – Private Practice"): "Private Practice",
-        normalize("Mental Health or Healthcare Provider – Public System"): "Public Health Provider",
-        normalize("Home Care or Specialized Residential Services"): "Home Care/Group Home",
-        normalize("Other"): "Home Care/Group Home",
+        "Insurance Provider / EAS": "Insurance Provider/EAS",
+        "Mental Health Practitioner – Private Practice": "Private Practice",
+        "Mental Health or Healthcare Provider – Public System": "Public Health Provider",
+        "Home Care or Specialized Residential Services": "Home Care/Group Home",
+        "Other": "Home Care/Group Home",
     }
     team_size_mapping = {
-        normalize("1 (Solo practice)"): "1",
-        normalize("2–5 providers"): "2–5",
-        normalize("6–15 providers"): "6–15",
-        normalize("16–50 providers"): "16–50",
-        normalize("51+ providers"): "51+",
-        normalize("Not sure yet"): "6–15",
+        "1 (Solo practice)": "1",
+        "2–5 providers": "2–5",
+        "6–15 providers": "6–15",
+        "16–50 providers": "16–50",
+        "51+ providers": "51+",
+        "Not sure yet": "6–15",
     }
     client_volume_mapping = {
-        normalize("Less than 100"): "Low",
-        normalize("100–500"): "Medium",
-        normalize("501–1,000"): "High",
-        normalize("Over 1,000"): "Very High",
+        "Less than 100": "Low",
+        "100–500": "Medium",
+        "501–1,000": "High",
+        "Over 1,000": "Very High",
     }
-    mapped_org_type = org_type_mapping.get(normalize(org_type), normalize(org_type)) if org_type else ""
-    mapped_team_size = team_size_mapping.get(normalize(team_size), normalize(team_size)) if team_size else ""
+    mapped_org_type = org_type_mapping.get(org_type.strip(), org_type.strip()) if org_type else ""
+    mapped_team_size = team_size_mapping.get(team_size.strip(), team_size.strip()) if team_size else ""
     mapped_client_volume = None
     if client_volume:
-        mapped_client_volume = client_volume_mapping.get(normalize(client_volume), normalize(client_volume))
+        mapped_client_volume = client_volume_mapping.get(client_volume.strip(), client_volume.strip())
     return mapped_org_type, mapped_team_size, mapped_client_volume
-
 
 PACKAGE_PRICE_TABLE = {
     ('Fresh Start', 4): 196,
@@ -78,27 +73,35 @@ SALES_MESSAGES = {
 }
 
 def predict_package(org_type, team_size, client_volume=None):
-    # mapped values
     mapped_org_type, mapped_team_size, mapped_client_volume = map_chatbot_to_api_values(org_type, team_size, client_volume)
-    print("DEBUG: original:", org_type, team_size, client_volume)
-    print("DEBUG: mapped:", mapped_org_type, mapped_team_size, mapped_client_volume)
+
     if mapped_org_type == "Private Practice":
         if mapped_team_size in ['1', '2–5']:
             return 'Fresh Start', 4
         elif mapped_team_size == '6–15':
             return 'Practice Plus', 8
-        elif mapped_team_size in ['16–50', '51+']:
-            return 'Community Access', 20
-        else:
+        elif mapped_team_size in ['16–50']:
             return 'Community Access', 16
+        else:  # 51+
+            return 'Community Access', 20
+
     elif mapped_org_type == "Public Health Provider":
-        return 'Enterprise Care (Public Health)', 20
-    elif mapped_org_type == "Insurance Provider/EAS":
-        return 'Enterprise Access (Insurance & EAS)', 20
-    else:  # Home Care/Group Home or other
         if mapped_team_size in ['1', '2–5', '6–15']:
             return 'Practice Plus', 6
         else:
+            return 'Enterprise Care (Public Health)', 20
+
+    elif mapped_org_type == "Insurance Provider/EAS":
+        return 'Enterprise Access (Insurance & EAS)', 20
+
+    else:  # Home Care/Group Home or other
+        if mapped_team_size in ['1', '2–5']:
+            return 'Fresh Start', 4
+        elif mapped_team_size == '6–15':
+            return 'Practice Plus', 8
+        elif mapped_team_size in ['16–50']:
+            return 'Community Access', 16
+        else:  # 51+
             return 'Community Access', 20
 
 app = FastAPI()
