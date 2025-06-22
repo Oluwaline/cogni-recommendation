@@ -3,6 +3,70 @@ from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 from typing import Optional  # Added missing import
 
+def map_chatbot_to_api_values(org_type, team_size, client_volume=None):
+    org_type_mapping = {
+        "Insurance Provider / EAS": "Insurance Provider/EAS",
+        "Mental Health Practitioner – Private Practice": "Private Practice",
+        "Mental Health or Healthcare Provider – Public System": "Public Health Provider",
+        "Home Care or Specialized Residential Services": "Home Care/Group Home",
+        "Other": "Home Care/Group Home",
+    }
+    team_size_mapping = {
+        "1 (Solo practice)": "1",
+        "2–5 providers": "2–5",
+        "6–15 providers": "6–15",
+        "16–50 providers": "16–50",
+        "51+ providers": "51+",
+        "Not sure yet": "6–15",
+    }
+    client_volume_mapping = {
+        "Less than 100": "Low",
+        "100–500": "Medium",
+        "501–1,000": "High",
+        "Over 1,000": "Very High",
+    }
+    mapped_org_type = org_type_mapping.get(org_type.strip(), org_type.strip()) if org_type else ""
+    mapped_team_size = team_size_mapping.get(team_size.strip(), team_size.strip()) if team_size else ""
+    mapped_client_volume = None
+    if client_volume:
+        mapped_client_volume = client_volume_mapping.get(client_volume.strip(), client_volume.strip())
+    return mapped_org_type, mapped_team_size, mapped_client_volume
+
+PACKAGE_PRICE_TABLE = {
+    ('Fresh Start', 4): 196,
+    ('Practice Plus', 8): 392,
+    ('Practice Plus', 6): 294,
+    ('Community Access', 20): 980,
+    ('Enterprise Care (Public Health)', 20): 980,
+    ('Enterprise Access (Insurance & EAS)', 20): 980,
+    ('Community Access', 16): 784,  # fallback
+}
+
+def predict_package(org_type, team_size, client_volume=None):
+    mapped_org_type, mapped_team_size, mapped_client_volume = map_chatbot_to_api_values(org_type, team_size, client_volume)
+    if mapped_org_type == "Private Practice":
+        if mapped_team_size in ['1', '2–5']:
+            package, seats = 'Fresh Start', 4
+        elif mapped_team_size == '6–15':
+            package, seats = 'Practice Plus', 8
+        elif mapped_team_size in ['16–50', '51+']:
+            package, seats = 'Community Access', 20
+        else:
+            package, seats = 'Community Access', 16
+    elif mapped_org_type == "Public Health Provider":
+        package, seats = 'Enterprise Care (Public Health)', 20
+    elif mapped_org_type == "Insurance Provider/EAS":
+        package, seats = 'Enterprise Access (Insurance & EAS)', 20
+    else:  # Home Care/Group Home or other
+        if mapped_team_size in ['1', '2–5', '6–15']:
+            package, seats = 'Practice Plus', 6
+        else:
+            package, seats = 'Community Access', 20
+
+    price = PACKAGE_PRICE_TABLE.get((package, seats), None)
+    return package, seats, price
+
+
 app = FastAPI()
 
 # Allow requests from any frontend (adjust as needed for production)
@@ -18,7 +82,7 @@ class InputData(BaseModel):
     org_type: str
     team_size: str
     client_volume: str
-    service: Optional[str] = None
+    service_model: Optional[str] = None
     specialization: Optional[str] = None
     timeline: Optional[str] = None
     features: Optional[str] = None
