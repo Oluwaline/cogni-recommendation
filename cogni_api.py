@@ -104,7 +104,9 @@ def predict_package(org_type, team_size, client_volume=None):
         else:  # 51+
             return 'Community Access', 20
 
-app = FastAPI()
+app = FastAPI(title="Cogni API",
+    description="AI-powered mental health package recommender",
+    version="1.0.0")
 
 # Allow CORS from any frontend (safe for dev, restrict in prod)
 app.add_middleware(
