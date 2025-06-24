@@ -4,7 +4,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from typing import Optional
 import uvicorn
 
-
 def map_chatbot_to_api_values(org_type, team_size, client_volume=None):
     org_type_mapping = {
         "Insurance Provider / EAS": "Insurance Provider/EAS",
@@ -29,9 +28,8 @@ def map_chatbot_to_api_values(org_type, team_size, client_volume=None):
     }
     mapped_org_type = org_type_mapping.get(org_type.strip(), org_type.strip()) if org_type else ""
     mapped_team_size = team_size_mapping.get(team_size.strip(), team_size.strip()) if team_size else ""
-    mapped_client_volume = None
-    if client_volume:
-        mapped_client_volume = client_volume_mapping.get(client_volume.strip(), client_volume.strip())
+    mapped_client_volume = client_volume_mapping.get(client_volume.strip(), client_volume.strip()) if client_volume else ""
+
     return mapped_org_type, mapped_team_size, mapped_client_volume
 
 PACKAGE_PRICE_TABLE = {
@@ -41,7 +39,7 @@ PACKAGE_PRICE_TABLE = {
     ('Community Access', 20): 980,
     ('Enterprise Care (Public Health)', 20): 980,
     ('Enterprise Access (Insurance & EAS)', 20): 980,
-    ('Community Access', 16): 784,  # fallback
+    ('Community Access', 16): 784,
 }
 
 SALES_MESSAGES = {
@@ -74,15 +72,20 @@ SALES_MESSAGES = {
 
 def predict_package(org_type, team_size, client_volume=None):
     mapped_org_type, mapped_team_size, mapped_client_volume = map_chatbot_to_api_values(org_type, team_size, client_volume)
+    
+    print(f"Mapped values → Org: {mapped_org_type}, Team: {mapped_team_size}, Volume: {mapped_client_volume}")
+
+    if not mapped_org_type or not mapped_team_size:
+        raise ValueError("Invalid mapping: org_type or team_size not recognized.")
 
     if mapped_org_type == "Private Practice":
         if mapped_team_size in ['1', '2–5']:
             return 'Fresh Start', 4
         elif mapped_team_size == '6–15':
             return 'Practice Plus', 8
-        elif mapped_team_size in ['16–50']:
+        elif mapped_team_size == '16–50':
             return 'Community Access', 16
-        else:  # 51+
+        else:
             return 'Community Access', 20
 
     elif mapped_org_type == "Public Health Provider":
@@ -94,21 +97,22 @@ def predict_package(org_type, team_size, client_volume=None):
     elif mapped_org_type == "Insurance Provider/EAS":
         return 'Enterprise Access (Insurance & EAS)', 20
 
-    else:  # Home Care/Group Home or other
+    else:
         if mapped_team_size in ['1', '2–5']:
             return 'Fresh Start', 4
         elif mapped_team_size == '6–15':
             return 'Practice Plus', 8
-        elif mapped_team_size in ['16–50']:
+        elif mapped_team_size == '16–50':
             return 'Community Access', 16
-        else:  # 51+
+        else:
             return 'Community Access', 20
 
-app = FastAPI(title="Cogni API",
+app = FastAPI(
+    title="Cogni API",
     description="AI-powered mental health package recommender",
-    version="1.0.0")
+    version="1.0.0"
+)
 
-# Allow CORS from any frontend (safe for dev, restrict in prod)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -137,14 +141,16 @@ def health_check():
 @app.post("/getRecommendation")
 def get_recommendation(data: InputData):
     try:
-        print(f"Received data: {data}")  # Debug
+        print("Received data:", data.dict())
+
         package, seats = predict_package(
             data.org_type, data.team_size, data.client_volume
         )
-        print(f"Recommended package: {package}, seats: {seats}")  # Debug
-        
+
+        print(f"Recommended package: {package}, seats: {seats}")
+
         next_steps = f"https://cogni-recommendation-chuiv5x8slzxktq3mzbb5p.streamlit.app/?tier={package.replace(' ', '%20')}&seats={seats}"
-        
+
         key_features = {
             "Fresh Start": "Self-guided tools, AI self-assessment, 1 group session/month, provider dashboard",
             "Practice Plus": "Full AI suite, group modules, custom reports, real-time analytics, provider dashboard",
@@ -154,9 +160,9 @@ def get_recommendation(data: InputData):
         }.get(package, "Comprehensive support and analytics")
 
         sales_message = SALES_MESSAGES.get(package, "").format(seats=seats, next_steps=next_steps)
-        price = PACKAGE_PRICE_TABLE.get((package, seats), seats * 49)  # Fallback
+        price = PACKAGE_PRICE_TABLE.get((package, seats), seats * 49)
 
-        return {
+        response = {
             "recommended_package": package,
             "recommended_seats": seats,
             "estimated_pricing": f"${price}",
@@ -164,7 +170,12 @@ def get_recommendation(data: InputData):
             "next_steps": next_steps,
             "sales_message": sales_message
         }
+
+        print("Returning recommendation response:", response)
+        return response
+
     except Exception as e:
+        print("Error occurred:", str(e))
         return {"error": str(e)}
 
 if __name__ == "__main__":
