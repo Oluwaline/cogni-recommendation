@@ -1,11 +1,11 @@
 # cogni-recommendation
 
 
-# 🧠 Cogni Recommendation System
+# Cogni Recommendation System
 
 This project intelligently recommends the most suitable Cogni mental health support package based on organizational inputs using FastAPI, Streamlit, and a low-code chatbot powered by Microsoft Copilot Studio.
 
-## 🚀 What It Does
+## What It Does
 
 - Collects assessment data from organizations (e.g., service model, team size, timeline)
 - Calls a FastAPI endpoint that runs a rule-based or ML model to determine the best-fit Cogni package
@@ -13,7 +13,7 @@ This project intelligently recommends the most suitable Cogni mental health supp
 - Renders a user-facing proposal via Streamlit with query parameters
 - Integrates with a Copilot chatbot to streamline conversations and automate recommendations
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **FastAPI** – RESTful backend to process recommendations
 - **Streamlit** – UI layer for displaying recommendations and proposal follow-ups
@@ -21,11 +21,11 @@ This project intelligently recommends the most suitable Cogni mental health supp
 - **Python + Pandas** – Core logic for decision making and data handling
 - **Git + GitHub** – Version control and deployment base
 
-## 📁 Folder Structure
+## Folder Structure
 cogni_recommendation_system/ ├── app.py # Streamlit frontend ├── cogni_api.py # FastAPI backend ├── cognii.ipynb # Jupyter logic notebook ├── requirements.txt # Dependency list └── cogni_synthetic_training.csv # Sample data (if applicable)
 
 
-## ⚙️ How to Run Locally
+## How to Run Locally
 
 1. Clone this repo and navigate to the project folder:
 
