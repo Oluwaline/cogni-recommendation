@@ -17,6 +17,37 @@ with st.container():
         st.markdown("## Cogni: Personalized Package Recommendation")
         st.markdown("Delivering smart, scalable mental health solutions tailored to your needs.")
 
+# ---- CUSTOME TAB ----
+
+st.markdown("""
+    <style>
+    .stTabs [role="tablist"] > div:nth-child(1) button {
+        background-color: #e0f7fa;  /* Light cyan */
+        color: black;
+    }
+    .stTabs [role="tablist"] > div:nth-child(2) button {
+        background-color: #fce4ec;  /* Light pink */
+        color: black;
+    }
+    .stTabs [role="tablist"] > div:nth-child(3) button {
+        background-color: #fff3e0;  /* Light orange */
+        color: black;
+    }
+    .stTabs [role="tablist"] > div:nth-child(4) button {
+        background-color: #ede7f6;  /* Light purple */
+        color: black;
+    }
+    .stTabs [role="tablist"] > div:nth-child(5) button {
+        background-color: #e8f5e9;  /* Light green */
+        color: black;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
+
+
+
+
 # ---- PACKAGE DICTIONARY ----
 PACKAGES = {
     'Fresh Start': {
@@ -33,7 +64,7 @@ PACKAGES = {
     'Practice Plus': {
         'ideal_client': 'Mental health clinics or private group practices (5–15 providers)',
         'seats': '5–15 seats',
-        'pricing': '$299/month base (includes 5 seats) + $35/additional seat',
+        'pricing':'$299/month base (includes 5 seats) + $35/additional seat',
         'features': [
             'Full AI suite',
             'Group modules',
@@ -45,7 +76,7 @@ PACKAGES = {
     'Community Access': {
         'ideal_client': 'Group homes, home care services',
         'seats': '10–30 staff, scalable by user volume',
-        'pricing': '$299 base (includes 5 seats) + $7.99/user/month with volume discounts',
+        'pricing': '$299 base (includes 5 seats) + $7.99/ user/ month with volume discounts',
         'features': [
             'Multilingual AI tools',
             'Group support modules',
