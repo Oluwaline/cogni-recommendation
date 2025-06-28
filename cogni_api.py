@@ -143,6 +143,11 @@ def get_recommendation(data: InputData):
     try:
         print("Received data:", data.dict())
 
+        mapped_org_type, mapped_team_size, mapped_client_volume = map_chatbot_to_api_values(
+            data.org_type, data.team_size, data.client_volume
+        )
+        print(f"Mapped values → Org: {mapped_org_type}, Team: {mapped_team_size}, Volume: {mapped_client_volume}")
+
         package, seats = predict_package(
             data.org_type, data.team_size, data.client_volume
         )
