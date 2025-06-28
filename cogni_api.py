@@ -72,41 +72,53 @@ SALES_MESSAGES = {
 
 def predict_package(org_type, team_size, client_volume=None):
     mapped_org_type, mapped_team_size, mapped_client_volume = map_chatbot_to_api_values(org_type, team_size, client_volume)
-    
     print(f"Mapped values → Org: {mapped_org_type}, Team: {mapped_team_size}, Volume: {mapped_client_volume}")
 
     if not mapped_org_type or not mapped_team_size:
+        print("Invalid mapping, raising error.")
         raise ValueError("Invalid mapping: org_type or team_size not recognized.")
 
     if mapped_org_type == "Private Practice":
         if mapped_team_size in ['1', '2–5']:
+            print("Branch: Private Practice, Fresh Start")
             return 'Fresh Start', 4
         elif mapped_team_size == '6–15':
+            print("Branch: Private Practice, Practice Plus")
             return 'Practice Plus', 8
         elif mapped_team_size == '16–50':
+            print("Branch: Private Practice, Community Access 16")
             return 'Community Access', 16
         else:
+            print("Branch: Private Practice, Community Access 20")
             return 'Community Access', 20
 
     elif mapped_org_type == "Public Health Provider":
         if mapped_team_size in ['1', '2–5', '6–15']:
+            print("Branch: Public Health Provider, Practice Plus")
             return 'Practice Plus', 6
         else:
+            print("Branch: Public Health Provider, Enterprise Care (Public Health)")
             return 'Enterprise Care (Public Health)', 20
 
     elif mapped_org_type == "Insurance Provider/EAS":
+        print("Branch: Insurance Provider/EAS")
         return 'Enterprise Access (Insurance & EAS)', 20
 
     else:
         if mapped_team_size in ['1', '2–5']:
+            print("Branch: Else, Fresh Start")
             return 'Fresh Start', 4
         elif mapped_team_size == '6–15':
+            print("Branch: Else, Practice Plus")
             return 'Practice Plus', 8
         elif mapped_team_size == '16–50':
+            print("Branch: Else, Community Access 16")
             return 'Community Access', 16
         else:
+            print("Branch: Else, Community Access 20")
             return 'Community Access', 20
 
+            
 app = FastAPI(
     title="Cogni API",
     description="AI-powered mental health package recommender",
