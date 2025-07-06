@@ -94,11 +94,47 @@ PACKAGE_PRICE_TABLE = {
 }
 
 SALES_MESSAGES = {
-    "Fresh Start": "Thank you... *Fresh Start* package with {seats} seats... [Click here]({next_steps})",
-    "Practice Plus": "Thank you... *Practice Plus* package with {seats} seats... [Click here]({next_steps})",
-    "Community Access": "Thank you... *Community Access* package with {seats} seats... [Click here]({next_steps})",
-    "Enterprise Care (Public Health)": "Thank you... *Enterprise Care (Public Health)* package... [Click here]({next_steps})",
-    "Enterprise Access (Insurance & EAS)": "Thank you... *Enterprise Access (Insurance & EAS)* package... [Click here]({next_steps})",
+    "Fresh Start": (
+        "Thank you for providing your details. Based on your responses, "
+        "we recommend the *Fresh Start* package with {seats} seats.\n\n"
+        "**Estimated Price**: ${price}  \n"
+        "**Key Features**: {features}  \n"
+        "[Click here to find out more]({next_steps})"
+    ),
+
+    "Practice Plus": (
+        "Thank you for providing your details. Based on your responses, "
+        "we recommend the *Practice Plus* package with {seats} seats.\n\n"
+        "**Estimated Price**: ${price}  \n"
+        "**Key Features**: {features}  \n"
+        "[Click here to find out more]({next_steps})"
+    ),
+    
+    "Community Access": (
+        "Thank you for providing your details. Based on your responses, "
+        "we recommend the *Community Access* package with {seats} seats.\n\n"
+        "**Estimated Price**: ${price}  \n"
+        "**Key Features**: {features}  \n"
+        "[Click here to find out more]({next_steps})"
+    ),
+    
+    "Enterprise Care (Public Health)": (
+        "Thank you for providing your details. Based on your responses, "
+        "we recommend the *Enterprise Care (Public Health)* package with {seats} seats.\n\n"
+        "**Estimated Price**: ${price}  \n"
+        "**Key Features**: {features}  \n"
+        "[Click here to find out more]({next_steps})"
+    ),
+    
+
+    "Enterprise Access (Insurance & EAS)": (
+        "Thank you for providing your details. Based on your responses, "
+        "we recommend the *Enterprise Access (Insurance & EAS)* package with {seats} seats.\n\n"
+        "**Estimated Price**: ${price}  \n"
+        "**Key Features**: {features}  \n"
+        "[Click here to find out more]({next_steps})"
+    ),
+
 }
 
 # --- FastAPI App ---
