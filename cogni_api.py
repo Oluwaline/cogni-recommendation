@@ -4,6 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from typing import Optional
 import uvicorn
 
+# --- Mapping helper ---
 def map_chatbot_to_api_values(org_type, team_size, client_volume=None):
     org_type_mapping = {
         "Insurance Provider / EAS": "Insurance Provider/EAS",
@@ -32,93 +33,75 @@ def map_chatbot_to_api_values(org_type, team_size, client_volume=None):
 
     return mapped_org_type, mapped_team_size, mapped_client_volume
 
+# --- New Smarter Package Prediction ---
+def predict_package(org_type, team_size, client_volume=None, specialization=None, service_model=None):
+    mapped_org_type, mapped_team_size, mapped_client_volume = map_chatbot_to_api_values(org_type, team_size, client_volume)
+    print(f"Mapped values → Org: {mapped_org_type}, Team: {mapped_team_size}, Volume: {mapped_client_volume}")
+
+    if not mapped_org_type or not mapped_team_size:
+        raise ValueError("Invalid mapping: org_type or team_size not recognized.")
+
+    if specialization and "trauma" in specialization.lower():
+        print("Branch: Specialization Trauma → Practice Plus")
+        return 'Practice Plus', 8
+
+    if mapped_client_volume == "Very High":
+        print("Branch: Volume Very High → Enterprise Care (Public Health)")
+        return 'Enterprise Care (Public Health)', 20
+
+    if service_model and "group" in service_model.lower() and mapped_team_size in ['16–50', '51+']:
+        print("Branch: Group model → Community Access")
+        return 'Community Access', 20
+
+    if mapped_org_type == "Private Practice":
+        if mapped_team_size in ['1', '2–5']:
+            return 'Fresh Start', 4
+        elif mapped_team_size == '6–15':
+            return 'Practice Plus', 8
+        elif mapped_team_size == '16–50':
+            return 'Community Access', 16
+        else:
+            return 'Community Access', 20
+
+    elif mapped_org_type == "Public Health Provider":
+        if mapped_team_size in ['1', '2–5', '6–15']:
+            return 'Practice Plus', 6
+        else:
+            return 'Enterprise Care (Public Health)', 20
+
+    elif mapped_org_type == "Insurance Provider/EAS":
+        return 'Enterprise Access (Insurance & EAS)', 20
+
+    # Fallback
+    if mapped_team_size in ['1', '2–5']:
+        return 'Fresh Start', 4
+    elif mapped_team_size == '6–15':
+        return 'Practice Plus', 8
+    elif mapped_team_size == '16–50':
+        return 'Community Access', 16
+    else:
+        return 'Community Access', 20
+
+# --- Pricing and Sales Messages ---
 PACKAGE_PRICE_TABLE = {
     ('Fresh Start', 4): 196,
     ('Practice Plus', 8): 392,
     ('Practice Plus', 6): 294,
     ('Community Access', 20): 980,
+    ('Community Access', 16): 784,
     ('Enterprise Care (Public Health)', 20): 980,
     ('Enterprise Access (Insurance & EAS)', 20): 980,
-    ('Community Access', 16): 784,
 }
 
 SALES_MESSAGES = {
-    "Fresh Start": (
-        "Thank you for providing your details. Based on your responses, we recommend the *Fresh Start* package with {seats} seats. "
-        "This plan offers essential self-guided tools, AI-powered assessments, and a user-friendly dashboard to help you launch your mental health services efficiently and affordably. "
-        "[Click here to view your personalized proposal and explore additional options]({next_steps})."
-    ),
-    "Practice Plus": (
-        "Thank you for providing your details. Based on your responses, we recommend the *Practice Plus* package with {seats} seats. "
-        "This comprehensive plan delivers full AI-powered assessments, real-time progress dashboards, customizable group therapy modules, and advanced analytics to drive better outcomes. "
-        "[Click here to view your personalized proposal and discover exclusive benefits available to your organization]({next_steps})."
-    ),
-    "Community Access": (
-        "Thank you for providing your details. Based on your responses, we recommend the *Community Access* package with {seats} seats. "
-        "This package provides scalable group support modules, multilingual AI tools, and special volume pricing to empower large teams and community organizations. "
-        "[Click here to view your personalized proposal and learn more]({next_steps})."
-    ),
-    "Enterprise Care (Public Health)": (
-        "Thank you for providing your details. Based on your responses, we recommend the *Enterprise Care (Public Health)* package with {seats} seats. "
-        "This solution is tailored for public health organizations, offering unlimited user support, robust analytics, and dedicated client monitoring to ensure the highest standards of care. "
-        "[Click here to view your personalized proposal and request a customized consultation]({next_steps})."
-    ),
-    "Enterprise Access (Insurance & EAS)": (
-        "Thank you for providing your details. Based on your responses, we recommend the *Enterprise Access (Insurance & EAS)* package with {seats} seats. "
-        "This package offers API integration, branded self-assessments, employer group modules, and unlimited monitoring tools—perfect for insurance providers and EAS programs. "
-        "[Click here to view your personalized proposal and discuss your organization's unique needs]({next_steps})."
-    ),
+    "Fresh Start": "Thank you... *Fresh Start* package with {seats} seats... [Click here]({next_steps})",
+    "Practice Plus": "Thank you... *Practice Plus* package with {seats} seats... [Click here]({next_steps})",
+    "Community Access": "Thank you... *Community Access* package with {seats} seats... [Click here]({next_steps})",
+    "Enterprise Care (Public Health)": "Thank you... *Enterprise Care (Public Health)* package... [Click here]({next_steps})",
+    "Enterprise Access (Insurance & EAS)": "Thank you... *Enterprise Access (Insurance & EAS)* package... [Click here]({next_steps})",
 }
 
-def predict_package(org_type, team_size, client_volume=None):
-    mapped_org_type, mapped_team_size, mapped_client_volume = map_chatbot_to_api_values(org_type, team_size, client_volume)
-    print(f"Mapped values → Org: {mapped_org_type}, Team: {mapped_team_size}, Volume: {mapped_client_volume}")
-
-    if not mapped_org_type or not mapped_team_size:
-        print("Invalid mapping, raising error.")
-        raise ValueError("Invalid mapping: org_type or team_size not recognized.")
-
-    if mapped_org_type == "Private Practice":
-        if mapped_team_size in ['1', '2–5']:
-            print("Branch: Private Practice, Fresh Start")
-            return 'Fresh Start', 4
-        elif mapped_team_size == '6–15':
-            print("Branch: Private Practice, Practice Plus")
-            return 'Practice Plus', 8
-        elif mapped_team_size == '16–50':
-            print("Branch: Private Practice, Community Access 16")
-            return 'Community Access', 16
-        else:
-            print("Branch: Private Practice, Community Access 20")
-            return 'Community Access', 20
-
-    elif mapped_org_type == "Public Health Provider":
-        if mapped_team_size in ['1', '2–5', '6–15']:
-            print("Branch: Public Health Provider, Practice Plus")
-            return 'Practice Plus', 6
-        else:
-            print("Branch: Public Health Provider, Enterprise Care (Public Health)")
-            return 'Enterprise Care (Public Health)', 20
-
-    elif mapped_org_type == "Insurance Provider/EAS":
-        print("Branch: Insurance Provider/EAS")
-        return 'Enterprise Access (Insurance & EAS)', 20
-
-    else:
-        if mapped_team_size in ['1', '2–5']:
-            print("Branch: Else, Fresh Start")
-            return 'Fresh Start', 4
-        elif mapped_team_size == '6–15':
-            print("Branch: Else, Practice Plus")
-            return 'Practice Plus', 8
-        elif mapped_team_size == '16–50':
-            print("Branch: Else, Community Access 16")
-            return 'Community Access', 16
-        else:
-            print("Branch: Else, Community Access 20")
-            return 'Community Access', 20
-
-            
+# --- FastAPI App ---
 app = FastAPI(
     title="Cogni API",
     description="AI-powered mental health package recommender",
@@ -155,16 +138,13 @@ def get_recommendation(data: InputData):
     try:
         print("Received data:", data.dict())
 
-        mapped_org_type, mapped_team_size, mapped_client_volume = map_chatbot_to_api_values(
-            data.org_type, data.team_size, data.client_volume
-        )
-        print(f"Mapped values → Org: {mapped_org_type}, Team: {mapped_team_size}, Volume: {mapped_client_volume}")
-
         package, seats = predict_package(
-            data.org_type, data.team_size, data.client_volume
+            data.org_type,
+            data.team_size,
+            data.client_volume,
+            data.specialization,
+            data.service_model
         )
-
-        print(f"Recommended package: {package}, seats: {seats}")
 
         next_steps = f"https://cogni-recommendation-chuiv5x8slzxktq3mzbb5p.streamlit.app/?tier={package.replace(' ', '%20')}&seats={seats}"
 
@@ -176,10 +156,10 @@ def get_recommendation(data: InputData):
             "Enterprise Access (Insurance & EAS)": "API integration, branded self-assessments, usage analytics, outcome dashboards"
         }.get(package, "Comprehensive support and analytics")
 
-        sales_message = SALES_MESSAGES.get(package, "").format(seats=seats, next_steps=next_steps)
         price = PACKAGE_PRICE_TABLE.get((package, seats), seats * 49)
+        sales_message = SALES_MESSAGES.get(package, "").format(seats=seats, next_steps=next_steps)
 
-        response = {
+        return {
             "recommended_package": package,
             "recommended_seats": seats,
             "estimated_pricing": f"${price}",
@@ -188,17 +168,8 @@ def get_recommendation(data: InputData):
             "sales_message": sales_message
         }
 
-        print("Returning recommendation response:", response)
-        return response
-
     except Exception as e:
-        print("Error occurred:", str(e))
         return {"error": str(e)}
 
 if __name__ == "__main__":
-    uvicorn.run(
-        "cogni_api:app",
-        host="0.0.0.0",
-        port=10000,
-        reload=True
-    )
+    uvicorn.run("cogni_api:app", host="0.0.0.0", port=10000, reload=True)
