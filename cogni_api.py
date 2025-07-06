@@ -193,7 +193,13 @@ def get_recommendation(data: InputData):
         }.get(package, "Comprehensive support and analytics")
 
         price = PACKAGE_PRICE_TABLE.get((package, seats), seats * 49)
-        sales_message = SALES_MESSAGES.get(package, "").format(seats=seats, next_steps=next_steps)
+        sales_message = SALES_MESSAGES.get(package, "").format(
+    seats=seats,
+    price=price,
+    features=key_features,
+    next_steps=next_steps
+)
+
 
         return {
             "recommended_package": package,
