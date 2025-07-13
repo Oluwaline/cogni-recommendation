@@ -15,7 +15,7 @@ with st.container():
         st.image("cogni_logo.png", width=60) 
     with col_title:
         st.markdown("## Cogni: Personalized Package Recommendation")
-        st.markdown("Delivering smart, scalable mental health solutions tailored to your needs.")
+        st.markdown("Delivering smart, scalable mental health solutions tailored to your practice.")
 
 # ---- CUSTOME TAB ----
 
@@ -152,7 +152,7 @@ with col2:
     with st.container():
         st.markdown("### 📞 Get in Touch")
         st.write("Have questions or need help picking the right package?")
-        st.markdown("**📧 Email:** [support@cogni.ai](mailto:support@cogni.ai)  \n**📞 Phone:** (555) 123-4567")
+        st.markdown("**📧 Email:** [support@cognicorplustherapy.com](mailto:support@cognicorplustherapy.com)  \n**📞 Phone:** (555) 123-4567")
 
 # ---- EXPLORATION TABS ----
 st.divider()
