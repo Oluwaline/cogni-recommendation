@@ -1,0 +1,1001 @@
+OrgType,TeamSize,ClientVolume,ServiceModel,Specialization,Timeline,Features,Package,RecommendedSeats
+Private Practice,51+,501-1000,High-volume intake,Trauma-informed,1-3 months,Affiliate integration,Community Access,60
+Private Practice,6-15,501-1000,Mixed services,General,Unsure,Multidimensional tracking,Practice Plus,12
+Private Practice,51+,100-500,Mixed services,Palliative/Complex,3-6 months,Real-time tracking,Community Access,50
+Insurance Provider/EAS,51+,<100,Mixed services,Trauma-informed,1-3 months,Multidimensional tracking,Enterprise Access,50
+Insurance Provider/EAS,6-15,501-1000,High-volume intake,General,Unsure,Multidimensional tracking,Enterprise Access,12
+Private Practice,6-15,>1000,High-volume intake,Palliative/Complex,1-3 months,Affiliate integration,Community Access,15
+Home Care/Group Home,51+,<100,High-volume intake,General,1-3 months,Multidimensional tracking,Community Access,50
+Private Practice,3-5,<100,Group care,General,Unsure,Multidimensional tracking,Practice Plus,5
+Private Practice,16-50,<100,Mixed services,General,3-6 months,Basic self-guided,Community Access,25
+Insurance Provider/EAS,16-50,100-500,Group care,Oncology/Cardiology/Neurology,3-6 months,Multidimensional tracking,Enterprise Access,25
+Insurance Provider/EAS,3-5,100-500,Mixed services,Palliative/Complex,3-6 months,Multidimensional tracking,Enterprise Access,5
+Private Practice,16-50,<100,Group care,General,Unsure,Basic self-guided,Community Access,25
+Insurance Provider/EAS,51+,>1000,Group care,Palliative/Complex,Unsure,Multidimensional tracking,Enterprise Access,75
+Insurance Provider/EAS,51+,501-1000,1:1 therapy,General,6+ months,Basic self-guided,Enterprise Access,60
+Public Health Provider,16-50,>1000,Mixed services,General,6+ months,Basic self-guided,Enterprise Care,37
+Public Health Provider,6-15,<100,High-volume intake,General,6+ months,Real-time tracking,Enterprise Care,10
+Insurance Provider/EAS,1-2,>1000,Mixed services,General,Unsure,Affiliate integration,Enterprise Access,3
+Private Practice,51+,501-1000,Mixed services,Trauma-informed,6+ months,Affiliate integration,Community Access,60
+Private Practice,51+,501-1000,Group care,Palliative/Complex,1-3 months,Real-time tracking,Community Access,60
+Insurance Provider/EAS,6-15,<100,High-volume intake,Oncology/Cardiology/Neurology,3-6 months,Multidimensional tracking,Enterprise Access,10
+Insurance Provider/EAS,1-2,>1000,1:1 therapy,Oncology/Cardiology/Neurology,3-6 months,Basic self-guided,Enterprise Access,3
+Insurance Provider/EAS,51+,501-1000,High-volume intake,General,1-3 months,Multidimensional tracking,Enterprise Access,60
+Private Practice,6-15,100-500,Mixed services,Palliative/Complex,1-3 months,Real-time tracking,Practice Plus,10
+Private Practice,16-50,>1000,Mixed services,General,3-6 months,Real-time tracking,Community Access,37
+Private Practice,3-5,501-1000,Mixed services,General,3-6 months,Basic self-guided,Fresh Start,6
+Insurance Provider/EAS,6-15,100-500,1:1 therapy,Palliative/Complex,1-3 months,Affiliate integration,Enterprise Access,10
+Insurance Provider/EAS,6-15,<100,Group care,General,6+ months,Real-time tracking,Enterprise Access,10
+Private Practice,6-15,100-500,Mixed services,Oncology/Cardiology/Neurology,1-3 months,Multidimensional tracking,Practice Plus,10
+Private Practice,1-2,100-500,Mixed services,General,6+ months,Real-time tracking,Practice Plus,2
+Public Health Provider,51+,<100,Mixed services,General,1-3 months,Real-time tracking,Enterprise Care,50
+Private Practice,51+,>1000,1:1 therapy,Trauma-informed,3-6 months,Real-time tracking,Community Access,75
+Private Practice,3-5,>1000,Group care,General,Unsure,Affiliate integration,Community Access,7
+Public Health Provider,6-15,<100,High-volume intake,Palliative/Complex,1-3 months,Multidimensional tracking,Enterprise Care,10
+Home Care/Group Home,6-15,501-1000,Mixed services,Trauma-informed,1-3 months,Multidimensional tracking,Practice Plus,12
+Private Practice,51+,501-1000,Mixed services,General,Unsure,Affiliate integration,Community Access,60
+Public Health Provider,6-15,>1000,Mixed services,General,1-3 months,Basic self-guided,Enterprise Care,15
+Private Practice,3-5,>1000,1:1 therapy,Trauma-informed,1-3 months,Basic self-guided,Community Access,7
+Insurance Provider/EAS,3-5,501-1000,High-volume intake,Trauma-informed,3-6 months,Multidimensional tracking,Enterprise Access,6
+Private Practice,16-50,<100,Group care,Palliative/Complex,3-6 months,Multidimensional tracking,Community Access,25
+Private Practice,6-15,501-1000,1:1 therapy,General,6+ months,Multidimensional tracking,Practice Plus,12
+Public Health Provider,16-50,>1000,Group care,Trauma-informed,Unsure,Multidimensional tracking,Enterprise Care,37
+Insurance Provider/EAS,16-50,100-500,Mixed services,Trauma-informed,6+ months,Multidimensional tracking,Enterprise Access,25
+Insurance Provider/EAS,6-15,<100,1:1 therapy,General,3-6 months,Real-time tracking,Enterprise Access,10
+Private Practice,6-15,>1000,1:1 therapy,General,1-3 months,Multidimensional tracking,Community Access,15
+Insurance Provider/EAS,51+,>1000,Mixed services,General,Unsure,Affiliate integration,Enterprise Access,75
+Public Health Provider,1-2,>1000,Mixed services,Oncology/Cardiology/Neurology,3-6 months,Affiliate integration,Enterprise Care,3
+Insurance Provider/EAS,51+,501-1000,Group care,Palliative/Complex,6+ months,Real-time tracking,Enterprise Access,60
+Private Practice,1-2,>1000,High-volume intake,Oncology/Cardiology/Neurology,1-3 months,Multidimensional tracking,Community Access,3
+Public Health Provider,6-15,>1000,High-volume intake,Trauma-informed,Unsure,Basic self-guided,Enterprise Care,15
+Home Care/Group Home,51+,100-500,1:1 therapy,Palliative/Complex,Unsure,Basic self-guided,Community Access,50
+Home Care/Group Home,51+,<100,Group care,Palliative/Complex,6+ months,Multidimensional tracking,Community Access,50
+Home Care/Group Home,51+,<100,Mixed services,Palliative/Complex,Unsure,Affiliate integration,Community Access,50
+Insurance Provider/EAS,1-2,100-500,High-volume intake,Palliative/Complex,6+ months,Multidimensional tracking,Enterprise Access,2
+Insurance Provider/EAS,3-5,>1000,High-volume intake,Palliative/Complex,3-6 months,Affiliate integration,Enterprise Access,7
+Private Practice,3-5,100-500,1:1 therapy,Palliative/Complex,1-3 months,Affiliate integration,Community Access,5
+Public Health Provider,51+,100-500,High-volume intake,Oncology/Cardiology/Neurology,3-6 months,Basic self-guided,Enterprise Care,50
+Private Practice,16-50,100-500,High-volume intake,Oncology/Cardiology/Neurology,1-3 months,Multidimensional tracking,Community Access,25
+Private Practice,16-50,501-1000,High-volume intake,General,3-6 months,Real-time tracking,Community Access,30
+Private Practice,6-15,<100,Group care,Oncology/Cardiology/Neurology,1-3 months,Real-time tracking,Practice Plus,10
+Private Practice,1-2,>1000,Group care,Palliative/Complex,3-6 months,Affiliate integration,Community Access,3
+Insurance Provider/EAS,1-2,>1000,1:1 therapy,General,Unsure,Basic self-guided,Enterprise Access,3
+Private Practice,51+,>1000,Mixed services,Oncology/Cardiology/Neurology,6+ months,Affiliate integration,Community Access,75
+Insurance Provider/EAS,51+,100-500,Mixed services,Trauma-informed,6+ months,Basic self-guided,Enterprise Access,50
+Private Practice,6-15,>1000,Group care,General,1-3 months,Real-time tracking,Community Access,15
+Home Care/Group Home,1-2,>1000,1:1 therapy,General,3-6 months,Basic self-guided,Community Access,3
+Private Practice,1-2,>1000,1:1 therapy,General,Unsure,Basic self-guided,Community Access,3
+Public Health Provider,51+,100-500,1:1 therapy,Oncology/Cardiology/Neurology,Unsure,Real-time tracking,Enterprise Care,50
+Private Practice,51+,100-500,1:1 therapy,General,Unsure,Basic self-guided,Community Access,50
+Insurance Provider/EAS,16-50,<100,Mixed services,General,3-6 months,Multidimensional tracking,Enterprise Access,25
+Public Health Provider,16-50,<100,Group care,Oncology/Cardiology/Neurology,6+ months,Real-time tracking,Enterprise Care,25
+Private Practice,51+,>1000,Group care,General,3-6 months,Real-time tracking,Community Access,75
+Home Care/Group Home,1-2,>1000,1:1 therapy,Trauma-informed,Unsure,Multidimensional tracking,Community Access,3
+Home Care/Group Home,3-5,<100,Mixed services,Oncology/Cardiology/Neurology,6+ months,Multidimensional tracking,Practice Plus,5
+Private Practice,3-5,501-1000,Mixed services,General,1-3 months,Affiliate integration,Community Access,6
+Public Health Provider,16-50,501-1000,1:1 therapy,Palliative/Complex,3-6 months,Affiliate integration,Enterprise Care,30
+Insurance Provider/EAS,51+,>1000,High-volume intake,General,1-3 months,Affiliate integration,Enterprise Access,75
+Private Practice,1-2,100-500,Mixed services,General,3-6 months,Real-time tracking,Practice Plus,2
+Private Practice,6-15,<100,High-volume intake,General,1-3 months,Real-time tracking,Practice Plus,10
+Private Practice,51+,>1000,Mixed services,Oncology/Cardiology/Neurology,1-3 months,Basic self-guided,Community Access,75
+Private Practice,51+,<100,Mixed services,Palliative/Complex,1-3 months,Affiliate integration,Community Access,50
+Private Practice,3-5,<100,High-volume intake,Oncology/Cardiology/Neurology,6+ months,Real-time tracking,Practice Plus,5
+Private Practice,16-50,<100,High-volume intake,Trauma-informed,1-3 months,Affiliate integration,Community Access,25
+Insurance Provider/EAS,1-2,<100,Group care,Oncology/Cardiology/Neurology,1-3 months,Real-time tracking,Enterprise Access,2
+Insurance Provider/EAS,6-15,<100,Mixed services,General,1-3 months,Affiliate integration,Enterprise Access,10
+Insurance Provider/EAS,16-50,100-500,High-volume intake,Palliative/Complex,6+ months,Real-time tracking,Enterprise Access,25
+Private Practice,51+,<100,High-volume intake,Trauma-informed,Unsure,Affiliate integration,Community Access,50
+Insurance Provider/EAS,51+,501-1000,Mixed services,Trauma-informed,1-3 months,Basic self-guided,Enterprise Access,60
+Private Practice,3-5,<100,High-volume intake,Palliative/Complex,6+ months,Affiliate integration,Community Access,5
+Insurance Provider/EAS,16-50,<100,Group care,Palliative/Complex,1-3 months,Basic self-guided,Enterprise Access,25
+Public Health Provider,51+,>1000,Group care,General,6+ months,Real-time tracking,Enterprise Care,75
+Insurance Provider/EAS,51+,<100,Group care,Palliative/Complex,Unsure,Basic self-guided,Enterprise Access,50
+Private Practice,16-50,<100,High-volume intake,Palliative/Complex,1-3 months,Multidimensional tracking,Community Access,25
+Private Practice,16-50,501-1000,High-volume intake,Trauma-informed,3-6 months,Affiliate integration,Community Access,30
+Private Practice,3-5,501-1000,High-volume intake,Oncology/Cardiology/Neurology,1-3 months,Basic self-guided,Practice Plus,6
+Private Practice,3-5,>1000,Mixed services,Trauma-informed,6+ months,Basic self-guided,Community Access,7
+Public Health Provider,6-15,<100,Mixed services,Palliative/Complex,6+ months,Multidimensional tracking,Enterprise Care,10
+Insurance Provider/EAS,1-2,100-500,1:1 therapy,Palliative/Complex,Unsure,Basic self-guided,Enterprise Access,2
+Home Care/Group Home,51+,501-1000,1:1 therapy,General,1-3 months,Affiliate integration,Community Access,60
+Home Care/Group Home,16-50,501-1000,High-volume intake,Palliative/Complex,3-6 months,Affiliate integration,Community Access,30
+Private Practice,1-2,<100,Group care,Oncology/Cardiology/Neurology,Unsure,Affiliate integration,Community Access,2
+Insurance Provider/EAS,16-50,100-500,Mixed services,General,3-6 months,Multidimensional tracking,Enterprise Access,25
+Insurance Provider/EAS,51+,>1000,Group care,General,3-6 months,Multidimensional tracking,Enterprise Access,75
+Private Practice,3-5,>1000,Mixed services,General,Unsure,Multidimensional tracking,Community Access,7
+Private Practice,1-2,<100,1:1 therapy,Oncology/Cardiology/Neurology,1-3 months,Multidimensional tracking,Practice Plus,2
+Insurance Provider/EAS,51+,100-500,High-volume intake,Palliative/Complex,3-6 months,Affiliate integration,Enterprise Access,50
+Public Health Provider,1-2,100-500,Group care,Palliative/Complex,3-6 months,Affiliate integration,Enterprise Care,2
+Insurance Provider/EAS,1-2,100-500,1:1 therapy,Oncology/Cardiology/Neurology,6+ months,Basic self-guided,Enterprise Access,2
+Private Practice,3-5,501-1000,1:1 therapy,Palliative/Complex,6+ months,Basic self-guided,Practice Plus,6
+Public Health Provider,3-5,<100,High-volume intake,General,1-3 months,Multidimensional tracking,Enterprise Care,5
+Insurance Provider/EAS,16-50,<100,1:1 therapy,Palliative/Complex,3-6 months,Affiliate integration,Enterprise Access,25
+Private Practice,51+,<100,1:1 therapy,Trauma-informed,6+ months,Basic self-guided,Community Access,50
+Insurance Provider/EAS,1-2,100-500,1:1 therapy,Palliative/Complex,1-3 months,Multidimensional tracking,Enterprise Access,2
+Insurance Provider/EAS,1-2,>1000,Mixed services,General,6+ months,Multidimensional tracking,Enterprise Access,3
+Insurance Provider/EAS,3-5,100-500,Group care,Trauma-informed,6+ months,Real-time tracking,Enterprise Access,5
+Home Care/Group Home,16-50,<100,Group care,Palliative/Complex,1-3 months,Basic self-guided,Community Access,25
+Insurance Provider/EAS,51+,<100,Group care,Trauma-informed,6+ months,Affiliate integration,Enterprise Access,50
+Insurance Provider/EAS,16-50,100-500,Group care,Trauma-informed,3-6 months,Real-time tracking,Enterprise Access,25
+Private Practice,6-15,501-1000,Group care,General,3-6 months,Basic self-guided,Practice Plus,12
+Public Health Provider,16-50,100-500,High-volume intake,Oncology/Cardiology/Neurology,1-3 months,Basic self-guided,Enterprise Care,25
+Public Health Provider,3-5,>1000,1:1 therapy,Oncology/Cardiology/Neurology,Unsure,Multidimensional tracking,Enterprise Care,7
+Private Practice,3-5,100-500,1:1 therapy,General,3-6 months,Affiliate integration,Community Access,5
+Private Practice,6-15,501-1000,High-volume intake,General,6+ months,Multidimensional tracking,Practice Plus,12
+Insurance Provider/EAS,16-50,>1000,Mixed services,General,6+ months,Multidimensional tracking,Enterprise Access,37
+Private Practice,51+,>1000,Group care,Trauma-informed,6+ months,Affiliate integration,Community Access,75
+Public Health Provider,3-5,>1000,Group care,General,1-3 months,Real-time tracking,Enterprise Care,7
+Insurance Provider/EAS,1-2,>1000,Group care,Palliative/Complex,1-3 months,Real-time tracking,Enterprise Access,3
+Private Practice,6-15,<100,Group care,Trauma-informed,1-3 months,Real-time tracking,Practice Plus,10
+Insurance Provider/EAS,6-15,501-1000,Mixed services,General,3-6 months,Multidimensional tracking,Enterprise Access,12
+Public Health Provider,1-2,501-1000,1:1 therapy,Palliative/Complex,6+ months,Affiliate integration,Enterprise Care,2
+Home Care/Group Home,3-5,>1000,High-volume intake,Oncology/Cardiology/Neurology,3-6 months,Basic self-guided,Community Access,7
+Insurance Provider/EAS,6-15,>1000,High-volume intake,Trauma-informed,6+ months,Affiliate integration,Enterprise Access,15
+Private Practice,16-50,<100,Group care,Oncology/Cardiology/Neurology,6+ months,Affiliate integration,Community Access,25
+Insurance Provider/EAS,1-2,501-1000,1:1 therapy,General,6+ months,Basic self-guided,Enterprise Access,2
+Public Health Provider,3-5,100-500,Mixed services,General,1-3 months,Multidimensional tracking,Enterprise Care,5
+Private Practice,3-5,501-1000,1:1 therapy,Oncology/Cardiology/Neurology,6+ months,Multidimensional tracking,Practice Plus,6
+Private Practice,3-5,501-1000,Mixed services,Oncology/Cardiology/Neurology,Unsure,Affiliate integration,Community Access,6
+Private Practice,51+,100-500,Mixed services,Trauma-informed,3-6 months,Affiliate integration,Community Access,50
+Private Practice,51+,100-500,1:1 therapy,Palliative/Complex,1-3 months,Real-time tracking,Community Access,50
+Insurance Provider/EAS,16-50,100-500,High-volume intake,General,3-6 months,Affiliate integration,Enterprise Access,25
+Insurance Provider/EAS,1-2,501-1000,High-volume intake,Oncology/Cardiology/Neurology,Unsure,Basic self-guided,Enterprise Access,2
+Home Care/Group Home,3-5,>1000,Mixed services,Palliative/Complex,6+ months,Real-time tracking,Community Access,7
+Home Care/Group Home,6-15,100-500,1:1 therapy,Trauma-informed,6+ months,Multidimensional tracking,Practice Plus,10
+Private Practice,51+,>1000,1:1 therapy,General,3-6 months,Multidimensional tracking,Community Access,75
+Private Practice,1-2,>1000,1:1 therapy,Oncology/Cardiology/Neurology,1-3 months,Real-time tracking,Community Access,3
+Public Health Provider,51+,100-500,High-volume intake,Palliative/Complex,1-3 months,Affiliate integration,Enterprise Care,50
+Private Practice,3-5,>1000,Group care,Oncology/Cardiology/Neurology,3-6 months,Multidimensional tracking,Community Access,7
+Insurance Provider/EAS,3-5,>1000,1:1 therapy,General,1-3 months,Basic self-guided,Enterprise Access,7
+Insurance Provider/EAS,6-15,100-500,High-volume intake,Palliative/Complex,3-6 months,Multidimensional tracking,Enterprise Access,10
+Home Care/Group Home,51+,>1000,High-volume intake,Palliative/Complex,Unsure,Affiliate integration,Community Access,75
+Insurance Provider/EAS,16-50,>1000,1:1 therapy,General,1-3 months,Basic self-guided,Enterprise Access,37
+Insurance Provider/EAS,6-15,<100,1:1 therapy,Palliative/Complex,6+ months,Real-time tracking,Enterprise Access,10
+Private Practice,16-50,<100,1:1 therapy,Oncology/Cardiology/Neurology,3-6 months,Multidimensional tracking,Community Access,25
+Private Practice,6-15,<100,Group care,Oncology/Cardiology/Neurology,6+ months,Affiliate integration,Community Access,10
+Private Practice,1-2,<100,High-volume intake,General,3-6 months,Basic self-guided,Practice Plus,2
+Home Care/Group Home,6-15,501-1000,High-volume intake,Oncology/Cardiology/Neurology,6+ months,Affiliate integration,Community Access,12
+Public Health Provider,3-5,>1000,Mixed services,Trauma-informed,1-3 months,Basic self-guided,Enterprise Care,7
+Private Practice,6-15,>1000,1:1 therapy,General,1-3 months,Basic self-guided,Community Access,15
+Insurance Provider/EAS,1-2,100-500,Mixed services,Oncology/Cardiology/Neurology,3-6 months,Basic self-guided,Enterprise Access,2
+Home Care/Group Home,1-2,100-500,Group care,Oncology/Cardiology/Neurology,6+ months,Multidimensional tracking,Practice Plus,2
+Private Practice,16-50,>1000,High-volume intake,Trauma-informed,1-3 months,Basic self-guided,Community Access,37
+Insurance Provider/EAS,16-50,<100,Group care,General,6+ months,Affiliate integration,Enterprise Access,25
+Private Practice,3-5,501-1000,High-volume intake,General,6+ months,Real-time tracking,Practice Plus,6
+Home Care/Group Home,3-5,100-500,High-volume intake,General,1-3 months,Multidimensional tracking,Practice Plus,5
+Private Practice,1-2,<100,High-volume intake,Trauma-informed,6+ months,Multidimensional tracking,Practice Plus,2
+Insurance Provider/EAS,16-50,<100,Mixed services,General,6+ months,Real-time tracking,Enterprise Access,25
+Public Health Provider,3-5,<100,Group care,General,3-6 months,Multidimensional tracking,Enterprise Care,5
+Public Health Provider,6-15,501-1000,1:1 therapy,General,1-3 months,Real-time tracking,Enterprise Care,12
+Public Health Provider,1-2,<100,High-volume intake,General,6+ months,Multidimensional tracking,Enterprise Care,2
+Private Practice,1-2,<100,1:1 therapy,General,1-3 months,Basic self-guided,Fresh Start,2
+Private Practice,6-15,501-1000,Mixed services,Oncology/Cardiology/Neurology,6+ months,Real-time tracking,Practice Plus,12
+Private Practice,3-5,501-1000,Group care,Palliative/Complex,Unsure,Affiliate integration,Community Access,6
+Insurance Provider/EAS,6-15,501-1000,Group care,General,6+ months,Multidimensional tracking,Enterprise Access,12
+Private Practice,1-2,<100,1:1 therapy,Oncology/Cardiology/Neurology,3-6 months,Real-time tracking,Practice Plus,2
+Insurance Provider/EAS,51+,<100,High-volume intake,Palliative/Complex,1-3 months,Basic self-guided,Enterprise Access,50
+Private Practice,16-50,501-1000,1:1 therapy,General,6+ months,Basic self-guided,Community Access,30
+Private Practice,6-15,501-1000,Mixed services,Palliative/Complex,Unsure,Real-time tracking,Practice Plus,12
+Insurance Provider/EAS,51+,<100,Group care,Palliative/Complex,6+ months,Real-time tracking,Enterprise Access,50
+Insurance Provider/EAS,6-15,501-1000,Group care,Oncology/Cardiology/Neurology,Unsure,Basic self-guided,Enterprise Access,12
+Private Practice,6-15,501-1000,Mixed services,General,1-3 months,Affiliate integration,Community Access,12
+Home Care/Group Home,3-5,100-500,High-volume intake,Trauma-informed,Unsure,Basic self-guided,Practice Plus,5
+Insurance Provider/EAS,16-50,>1000,Group care,Palliative/Complex,Unsure,Basic self-guided,Enterprise Access,37
+Private Practice,6-15,>1000,High-volume intake,Trauma-informed,1-3 months,Multidimensional tracking,Community Access,15
+Insurance Provider/EAS,51+,501-1000,High-volume intake,Trauma-informed,6+ months,Multidimensional tracking,Enterprise Access,60
+Insurance Provider/EAS,6-15,>1000,Mixed services,Palliative/Complex,3-6 months,Basic self-guided,Enterprise Access,15
+Private Practice,3-5,501-1000,Group care,General,6+ months,Basic self-guided,Practice Plus,6
+Insurance Provider/EAS,51+,501-1000,Mixed services,Trauma-informed,3-6 months,Real-time tracking,Enterprise Access,60
+Home Care/Group Home,51+,>1000,High-volume intake,General,3-6 months,Affiliate integration,Community Access,75
+Private Practice,16-50,>1000,1:1 therapy,General,Unsure,Real-time tracking,Community Access,37
+Private Practice,51+,>1000,High-volume intake,Palliative/Complex,3-6 months,Multidimensional tracking,Community Access,75
+Insurance Provider/EAS,3-5,100-500,Mixed services,Palliative/Complex,6+ months,Multidimensional tracking,Enterprise Access,5
+Insurance Provider/EAS,3-5,501-1000,1:1 therapy,General,Unsure,Real-time tracking,Enterprise Access,6
+Private Practice,1-2,100-500,Group care,Palliative/Complex,Unsure,Real-time tracking,Practice Plus,2
+Private Practice,51+,100-500,High-volume intake,Trauma-informed,3-6 months,Real-time tracking,Community Access,50
+Private Practice,3-5,>1000,1:1 therapy,General,1-3 months,Basic self-guided,Community Access,7
+Private Practice,3-5,>1000,High-volume intake,General,3-6 months,Basic self-guided,Community Access,7
+Insurance Provider/EAS,6-15,>1000,Group care,Trauma-informed,1-3 months,Basic self-guided,Enterprise Access,15
+Insurance Provider/EAS,51+,<100,Group care,Oncology/Cardiology/Neurology,3-6 months,Real-time tracking,Enterprise Access,50
+Private Practice,3-5,>1000,Group care,Trauma-informed,6+ months,Basic self-guided,Community Access,7
+Private Practice,3-5,<100,1:1 therapy,Palliative/Complex,6+ months,Multidimensional tracking,Practice Plus,5
+Home Care/Group Home,6-15,501-1000,Mixed services,Oncology/Cardiology/Neurology,3-6 months,Affiliate integration,Community Access,12
+Private Practice,51+,>1000,1:1 therapy,General,6+ months,Multidimensional tracking,Community Access,75
+Insurance Provider/EAS,16-50,501-1000,1:1 therapy,Oncology/Cardiology/Neurology,1-3 months,Affiliate integration,Enterprise Access,30
+Private Practice,3-5,100-500,1:1 therapy,General,Unsure,Basic self-guided,Fresh Start,5
+Private Practice,51+,501-1000,Mixed services,Oncology/Cardiology/Neurology,6+ months,Affiliate integration,Community Access,60
+Public Health Provider,51+,>1000,Mixed services,Palliative/Complex,3-6 months,Real-time tracking,Enterprise Care,75
+Insurance Provider/EAS,51+,>1000,High-volume intake,Palliative/Complex,1-3 months,Basic self-guided,Enterprise Access,75
+Home Care/Group Home,1-2,501-1000,Mixed services,Oncology/Cardiology/Neurology,Unsure,Affiliate integration,Community Access,2
+Public Health Provider,51+,<100,High-volume intake,Trauma-informed,Unsure,Real-time tracking,Enterprise Care,50
+Home Care/Group Home,3-5,<100,Mixed services,General,3-6 months,Basic self-guided,Practice Plus,5
+Home Care/Group Home,3-5,>1000,High-volume intake,Palliative/Complex,3-6 months,Basic self-guided,Community Access,7
+Private Practice,51+,501-1000,1:1 therapy,General,Unsure,Real-time tracking,Community Access,60
+Private Practice,51+,100-500,High-volume intake,Palliative/Complex,6+ months,Affiliate integration,Community Access,50
+Private Practice,3-5,501-1000,1:1 therapy,Trauma-informed,Unsure,Affiliate integration,Community Access,6
+Private Practice,51+,100-500,High-volume intake,Trauma-informed,Unsure,Real-time tracking,Community Access,50
+Public Health Provider,16-50,501-1000,High-volume intake,Palliative/Complex,Unsure,Basic self-guided,Enterprise Care,30
+Private Practice,51+,100-500,1:1 therapy,Palliative/Complex,3-6 months,Multidimensional tracking,Community Access,50
+Insurance Provider/EAS,6-15,100-500,Group care,General,6+ months,Basic self-guided,Enterprise Access,10
+Private Practice,6-15,501-1000,High-volume intake,General,1-3 months,Real-time tracking,Practice Plus,12
+Insurance Provider/EAS,51+,>1000,1:1 therapy,Oncology/Cardiology/Neurology,Unsure,Affiliate integration,Enterprise Access,75
+Private Practice,1-2,501-1000,High-volume intake,Oncology/Cardiology/Neurology,1-3 months,Real-time tracking,Practice Plus,2
+Insurance Provider/EAS,51+,100-500,Mixed services,General,Unsure,Real-time tracking,Enterprise Access,50
+Insurance Provider/EAS,1-2,>1000,1:1 therapy,Palliative/Complex,6+ months,Basic self-guided,Enterprise Access,3
+Insurance Provider/EAS,1-2,>1000,Mixed services,General,3-6 months,Basic self-guided,Enterprise Access,3
+Public Health Provider,6-15,>1000,Group care,Palliative/Complex,6+ months,Real-time tracking,Enterprise Care,15
+Private Practice,51+,100-500,1:1 therapy,Trauma-informed,Unsure,Affiliate integration,Community Access,50
+Private Practice,51+,501-1000,Group care,Trauma-informed,1-3 months,Real-time tracking,Community Access,60
+Insurance Provider/EAS,3-5,<100,Group care,General,3-6 months,Affiliate integration,Enterprise Access,5
+Public Health Provider,51+,<100,Group care,Palliative/Complex,1-3 months,Basic self-guided,Enterprise Care,50
+Home Care/Group Home,3-5,<100,1:1 therapy,General,6+ months,Real-time tracking,Practice Plus,5
+Private Practice,1-2,>1000,High-volume intake,Palliative/Complex,3-6 months,Basic self-guided,Community Access,3
+Insurance Provider/EAS,1-2,<100,Mixed services,Oncology/Cardiology/Neurology,3-6 months,Affiliate integration,Enterprise Access,2
+Home Care/Group Home,6-15,501-1000,Mixed services,Oncology/Cardiology/Neurology,6+ months,Basic self-guided,Practice Plus,12
+Home Care/Group Home,3-5,<100,High-volume intake,Trauma-informed,1-3 months,Affiliate integration,Community Access,5
+Insurance Provider/EAS,16-50,501-1000,Group care,General,1-3 months,Multidimensional tracking,Enterprise Access,30
+Private Practice,51+,>1000,Mixed services,Trauma-informed,1-3 months,Basic self-guided,Community Access,75
+Home Care/Group Home,51+,>1000,Group care,Oncology/Cardiology/Neurology,3-6 months,Affiliate integration,Community Access,75
+Private Practice,3-5,>1000,High-volume intake,Palliative/Complex,1-3 months,Real-time tracking,Community Access,7
+Private Practice,16-50,<100,High-volume intake,Palliative/Complex,1-3 months,Basic self-guided,Community Access,25
+Public Health Provider,1-2,<100,Group care,General,6+ months,Real-time tracking,Enterprise Care,2
+Insurance Provider/EAS,51+,501-1000,1:1 therapy,Palliative/Complex,6+ months,Affiliate integration,Enterprise Access,60
+Public Health Provider,3-5,>1000,High-volume intake,General,6+ months,Affiliate integration,Enterprise Care,7
+Insurance Provider/EAS,3-5,100-500,1:1 therapy,Oncology/Cardiology/Neurology,6+ months,Real-time tracking,Enterprise Access,5
+Insurance Provider/EAS,6-15,<100,1:1 therapy,Trauma-informed,6+ months,Real-time tracking,Enterprise Access,10
+Private Practice,51+,501-1000,Mixed services,General,3-6 months,Affiliate integration,Community Access,60
+Private Practice,3-5,501-1000,Mixed services,Trauma-informed,3-6 months,Basic self-guided,Practice Plus,6
+Insurance Provider/EAS,16-50,>1000,Mixed services,Trauma-informed,Unsure,Affiliate integration,Enterprise Access,37
+Insurance Provider/EAS,16-50,100-500,1:1 therapy,Oncology/Cardiology/Neurology,1-3 months,Real-time tracking,Enterprise Access,25
+Private Practice,6-15,100-500,Group care,Palliative/Complex,6+ months,Basic self-guided,Practice Plus,10
+Private Practice,6-15,501-1000,Mixed services,Trauma-informed,6+ months,Basic self-guided,Practice Plus,12
+Insurance Provider/EAS,6-15,501-1000,Group care,General,3-6 months,Real-time tracking,Enterprise Access,12
+Private Practice,16-50,<100,High-volume intake,Oncology/Cardiology/Neurology,6+ months,Affiliate integration,Community Access,25
+Public Health Provider,51+,501-1000,Mixed services,Palliative/Complex,6+ months,Real-time tracking,Enterprise Care,60
+Insurance Provider/EAS,6-15,501-1000,High-volume intake,Palliative/Complex,Unsure,Multidimensional tracking,Enterprise Access,12
+Private Practice,51+,501-1000,Mixed services,Palliative/Complex,Unsure,Real-time tracking,Community Access,60
+Public Health Provider,51+,501-1000,High-volume intake,Oncology/Cardiology/Neurology,Unsure,Real-time tracking,Enterprise Care,60
+Insurance Provider/EAS,51+,501-1000,Mixed services,Palliative/Complex,Unsure,Multidimensional tracking,Enterprise Access,60
+Private Practice,16-50,>1000,High-volume intake,Palliative/Complex,3-6 months,Basic self-guided,Community Access,37
+Home Care/Group Home,51+,>1000,High-volume intake,Oncology/Cardiology/Neurology,3-6 months,Multidimensional tracking,Community Access,75
+Insurance Provider/EAS,51+,>1000,Mixed services,General,Unsure,Real-time tracking,Enterprise Access,75
+Private Practice,1-2,100-500,Group care,Oncology/Cardiology/Neurology,3-6 months,Multidimensional tracking,Practice Plus,2
+Insurance Provider/EAS,1-2,100-500,Mixed services,Oncology/Cardiology/Neurology,6+ months,Real-time tracking,Enterprise Access,2
+Private Practice,51+,100-500,Mixed services,Oncology/Cardiology/Neurology,Unsure,Basic self-guided,Community Access,50
+Insurance Provider/EAS,51+,100-500,Group care,General,3-6 months,Affiliate integration,Enterprise Access,50
+Private Practice,6-15,<100,1:1 therapy,Palliative/Complex,3-6 months,Basic self-guided,Practice Plus,10
+Insurance Provider/EAS,6-15,>1000,1:1 therapy,General,1-3 months,Real-time tracking,Enterprise Access,15
+Insurance Provider/EAS,16-50,>1000,1:1 therapy,Oncology/Cardiology/Neurology,Unsure,Real-time tracking,Enterprise Access,37
+Private Practice,3-5,<100,1:1 therapy,Palliative/Complex,3-6 months,Basic self-guided,Practice Plus,5
+Public Health Provider,3-5,100-500,High-volume intake,General,6+ months,Real-time tracking,Enterprise Care,5
+Private Practice,3-5,501-1000,Group care,General,Unsure,Basic self-guided,Practice Plus,6
+Home Care/Group Home,51+,501-1000,High-volume intake,General,3-6 months,Basic self-guided,Community Access,60
+Insurance Provider/EAS,1-2,100-500,Mixed services,Palliative/Complex,3-6 months,Multidimensional tracking,Enterprise Access,2
+Public Health Provider,6-15,501-1000,High-volume intake,Trauma-informed,Unsure,Multidimensional tracking,Enterprise Care,12
+Private Practice,3-5,501-1000,High-volume intake,General,Unsure,Real-time tracking,Practice Plus,6
+Private Practice,3-5,100-500,Mixed services,General,1-3 months,Basic self-guided,Fresh Start,5
+Home Care/Group Home,3-5,501-1000,High-volume intake,Oncology/Cardiology/Neurology,1-3 months,Multidimensional tracking,Practice Plus,6
+Home Care/Group Home,51+,501-1000,Mixed services,Oncology/Cardiology/Neurology,3-6 months,Real-time tracking,Community Access,60
+Public Health Provider,51+,>1000,Mixed services,Palliative/Complex,6+ months,Multidimensional tracking,Enterprise Care,75
+Insurance Provider/EAS,6-15,<100,1:1 therapy,Oncology/Cardiology/Neurology,6+ months,Basic self-guided,Enterprise Access,10
+Public Health Provider,1-2,100-500,1:1 therapy,Trauma-informed,1-3 months,Multidimensional tracking,Enterprise Care,2
+Private Practice,16-50,>1000,Mixed services,Trauma-informed,Unsure,Multidimensional tracking,Community Access,37
+Private Practice,6-15,>1000,1:1 therapy,Oncology/Cardiology/Neurology,1-3 months,Real-time tracking,Community Access,15
+Private Practice,3-5,501-1000,Group care,Trauma-informed,6+ months,Real-time tracking,Practice Plus,6
+Home Care/Group Home,3-5,100-500,1:1 therapy,General,1-3 months,Real-time tracking,Practice Plus,5
+Private Practice,1-2,501-1000,Group care,Trauma-informed,Unsure,Real-time tracking,Practice Plus,2
+Insurance Provider/EAS,16-50,100-500,Group care,Oncology/Cardiology/Neurology,1-3 months,Basic self-guided,Enterprise Access,25
+Insurance Provider/EAS,1-2,100-500,Group care,Palliative/Complex,6+ months,Real-time tracking,Enterprise Access,2
+Private Practice,1-2,>1000,Group care,General,1-3 months,Affiliate integration,Community Access,3
+Private Practice,16-50,100-500,High-volume intake,Trauma-informed,6+ months,Basic self-guided,Community Access,25
+Public Health Provider,16-50,<100,High-volume intake,Oncology/Cardiology/Neurology,6+ months,Real-time tracking,Enterprise Care,25
+Insurance Provider/EAS,3-5,<100,Group care,Trauma-informed,1-3 months,Basic self-guided,Enterprise Access,5
+Private Practice,6-15,>1000,1:1 therapy,General,3-6 months,Multidimensional tracking,Community Access,15
+Private Practice,6-15,<100,High-volume intake,Trauma-informed,1-3 months,Basic self-guided,Practice Plus,10
+Public Health Provider,16-50,>1000,Mixed services,Palliative/Complex,3-6 months,Multidimensional tracking,Enterprise Care,37
+Private Practice,16-50,100-500,Group care,General,6+ months,Basic self-guided,Community Access,25
+Home Care/Group Home,51+,<100,High-volume intake,General,1-3 months,Basic self-guided,Community Access,50
+Insurance Provider/EAS,1-2,<100,High-volume intake,General,3-6 months,Multidimensional tracking,Enterprise Access,2
+Home Care/Group Home,6-15,501-1000,Group care,Palliative/Complex,3-6 months,Basic self-guided,Practice Plus,12
+Home Care/Group Home,6-15,100-500,High-volume intake,Trauma-informed,Unsure,Affiliate integration,Community Access,10
+Insurance Provider/EAS,51+,>1000,Mixed services,Palliative/Complex,Unsure,Affiliate integration,Enterprise Access,75
+Insurance Provider/EAS,51+,<100,High-volume intake,Trauma-informed,Unsure,Real-time tracking,Enterprise Access,50
+Home Care/Group Home,3-5,<100,High-volume intake,Palliative/Complex,6+ months,Real-time tracking,Practice Plus,5
+Insurance Provider/EAS,3-5,<100,Group care,Palliative/Complex,Unsure,Basic self-guided,Enterprise Access,5
+Insurance Provider/EAS,1-2,100-500,Mixed services,Trauma-informed,6+ months,Affiliate integration,Enterprise Access,2
+Private Practice,51+,>1000,1:1 therapy,Oncology/Cardiology/Neurology,3-6 months,Multidimensional tracking,Community Access,75
+Insurance Provider/EAS,1-2,<100,1:1 therapy,Palliative/Complex,1-3 months,Basic self-guided,Enterprise Access,2
+Insurance Provider/EAS,1-2,501-1000,Mixed services,Trauma-informed,3-6 months,Real-time tracking,Enterprise Access,2
+Home Care/Group Home,6-15,100-500,Group care,Trauma-informed,1-3 months,Affiliate integration,Community Access,10
+Private Practice,6-15,<100,Mixed services,General,6+ months,Basic self-guided,Practice Plus,10
+Private Practice,1-2,>1000,Group care,General,1-3 months,Affiliate integration,Community Access,3
+Private Practice,1-2,<100,1:1 therapy,Oncology/Cardiology/Neurology,6+ months,Multidimensional tracking,Practice Plus,2
+Insurance Provider/EAS,6-15,501-1000,Mixed services,Trauma-informed,3-6 months,Real-time tracking,Enterprise Access,12
+Private Practice,6-15,<100,Group care,Palliative/Complex,3-6 months,Real-time tracking,Practice Plus,10
+Home Care/Group Home,51+,100-500,1:1 therapy,General,3-6 months,Multidimensional tracking,Community Access,50
+Private Practice,16-50,>1000,High-volume intake,General,6+ months,Real-time tracking,Community Access,37
+Public Health Provider,16-50,501-1000,High-volume intake,General,6+ months,Affiliate integration,Enterprise Care,30
+Insurance Provider/EAS,51+,>1000,High-volume intake,General,6+ months,Affiliate integration,Enterprise Access,75
+Insurance Provider/EAS,51+,<100,Group care,General,3-6 months,Basic self-guided,Enterprise Access,50
+Private Practice,51+,>1000,Group care,General,6+ months,Multidimensional tracking,Community Access,75
+Private Practice,3-5,>1000,Group care,Trauma-informed,1-3 months,Basic self-guided,Community Access,7
+Private Practice,1-2,100-500,High-volume intake,General,Unsure,Real-time tracking,Practice Plus,2
+Public Health Provider,1-2,100-500,1:1 therapy,General,Unsure,Multidimensional tracking,Enterprise Care,2
+Private Practice,1-2,>1000,Mixed services,Oncology/Cardiology/Neurology,6+ months,Affiliate integration,Community Access,3
+Insurance Provider/EAS,51+,100-500,Mixed services,General,1-3 months,Affiliate integration,Enterprise Access,50
+Private Practice,3-5,<100,1:1 therapy,Palliative/Complex,Unsure,Multidimensional tracking,Practice Plus,5
+Private Practice,6-15,<100,Mixed services,General,6+ months,Multidimensional tracking,Practice Plus,10
+Private Practice,3-5,<100,Group care,Trauma-informed,3-6 months,Basic self-guided,Practice Plus,5
+Private Practice,51+,501-1000,1:1 therapy,Trauma-informed,3-6 months,Basic self-guided,Community Access,60
+Insurance Provider/EAS,1-2,100-500,Mixed services,General,6+ months,Multidimensional tracking,Enterprise Access,2
+Insurance Provider/EAS,6-15,100-500,1:1 therapy,General,1-3 months,Basic self-guided,Enterprise Access,10
+Private Practice,3-5,>1000,High-volume intake,Oncology/Cardiology/Neurology,3-6 months,Affiliate integration,Community Access,7
+Private Practice,51+,501-1000,1:1 therapy,Trauma-informed,6+ months,Multidimensional tracking,Community Access,60
+Insurance Provider/EAS,6-15,>1000,Group care,General,Unsure,Affiliate integration,Enterprise Access,15
+Public Health Provider,16-50,>1000,1:1 therapy,Palliative/Complex,6+ months,Basic self-guided,Enterprise Care,37
+Private Practice,6-15,100-500,1:1 therapy,Trauma-informed,1-3 months,Basic self-guided,Practice Plus,10
+Public Health Provider,16-50,<100,Mixed services,General,1-3 months,Multidimensional tracking,Enterprise Care,25
+Home Care/Group Home,3-5,501-1000,Group care,General,3-6 months,Affiliate integration,Community Access,6
+Insurance Provider/EAS,3-5,501-1000,Mixed services,Trauma-informed,1-3 months,Affiliate integration,Enterprise Access,6
+Public Health Provider,16-50,>1000,Group care,Oncology/Cardiology/Neurology,Unsure,Basic self-guided,Enterprise Care,37
+Insurance Provider/EAS,1-2,501-1000,Mixed services,Oncology/Cardiology/Neurology,3-6 months,Basic self-guided,Enterprise Access,2
+Public Health Provider,16-50,<100,Mixed services,Trauma-informed,Unsure,Affiliate integration,Enterprise Care,25
+Home Care/Group Home,51+,501-1000,Mixed services,Palliative/Complex,3-6 months,Basic self-guided,Community Access,60
+Public Health Provider,16-50,<100,1:1 therapy,Trauma-informed,Unsure,Real-time tracking,Enterprise Care,25
+Insurance Provider/EAS,1-2,<100,Mixed services,Oncology/Cardiology/Neurology,Unsure,Real-time tracking,Enterprise Access,2
+Insurance Provider/EAS,16-50,<100,High-volume intake,General,3-6 months,Basic self-guided,Enterprise Access,25
+Insurance Provider/EAS,6-15,<100,1:1 therapy,Oncology/Cardiology/Neurology,6+ months,Multidimensional tracking,Enterprise Access,10
+Insurance Provider/EAS,3-5,>1000,Group care,Oncology/Cardiology/Neurology,6+ months,Real-time tracking,Enterprise Access,7
+Private Practice,16-50,<100,Mixed services,General,6+ months,Basic self-guided,Community Access,25
+Insurance Provider/EAS,3-5,<100,High-volume intake,Trauma-informed,3-6 months,Real-time tracking,Enterprise Access,5
+Public Health Provider,6-15,>1000,High-volume intake,General,1-3 months,Affiliate integration,Enterprise Care,15
+Private Practice,3-5,501-1000,Group care,General,3-6 months,Multidimensional tracking,Practice Plus,6
+Private Practice,3-5,<100,Group care,General,3-6 months,Basic self-guided,Practice Plus,5
+Home Care/Group Home,1-2,100-500,Mixed services,Trauma-informed,1-3 months,Multidimensional tracking,Practice Plus,2
+Private Practice,1-2,100-500,1:1 therapy,Trauma-informed,3-6 months,Multidimensional tracking,Practice Plus,2
+Private Practice,16-50,<100,High-volume intake,Palliative/Complex,Unsure,Multidimensional tracking,Community Access,25
+Home Care/Group Home,16-50,<100,High-volume intake,Oncology/Cardiology/Neurology,3-6 months,Basic self-guided,Community Access,25
+Insurance Provider/EAS,51+,501-1000,Group care,Trauma-informed,6+ months,Affiliate integration,Enterprise Access,60
+Private Practice,51+,501-1000,Group care,Oncology/Cardiology/Neurology,3-6 months,Real-time tracking,Community Access,60
+Home Care/Group Home,51+,501-1000,Mixed services,General,6+ months,Affiliate integration,Community Access,60
+Insurance Provider/EAS,51+,<100,Mixed services,General,6+ months,Affiliate integration,Enterprise Access,50
+Private Practice,16-50,<100,Mixed services,Trauma-informed,Unsure,Basic self-guided,Community Access,25
+Insurance Provider/EAS,16-50,>1000,1:1 therapy,Trauma-informed,Unsure,Real-time tracking,Enterprise Access,37
+Private Practice,51+,>1000,High-volume intake,Oncology/Cardiology/Neurology,1-3 months,Affiliate integration,Community Access,75
+Private Practice,16-50,100-500,Group care,General,1-3 months,Real-time tracking,Community Access,25
+Home Care/Group Home,3-5,100-500,High-volume intake,Oncology/Cardiology/Neurology,3-6 months,Affiliate integration,Community Access,5
+Private Practice,3-5,>1000,High-volume intake,Trauma-informed,1-3 months,Basic self-guided,Community Access,7
+Public Health Provider,51+,<100,1:1 therapy,Palliative/Complex,1-3 months,Multidimensional tracking,Enterprise Care,50
+Private Practice,6-15,<100,Mixed services,Trauma-informed,1-3 months,Multidimensional tracking,Practice Plus,10
+Insurance Provider/EAS,51+,100-500,Group care,General,Unsure,Multidimensional tracking,Enterprise Access,50
+Public Health Provider,6-15,<100,1:1 therapy,General,3-6 months,Real-time tracking,Enterprise Care,10
+Public Health Provider,51+,<100,1:1 therapy,General,Unsure,Basic self-guided,Enterprise Care,50
+Home Care/Group Home,3-5,>1000,Mixed services,General,3-6 months,Real-time tracking,Community Access,7
+Insurance Provider/EAS,16-50,>1000,1:1 therapy,Palliative/Complex,6+ months,Real-time tracking,Enterprise Access,37
+Private Practice,1-2,501-1000,1:1 therapy,General,Unsure,Basic self-guided,Fresh Start,2
+Insurance Provider/EAS,16-50,<100,High-volume intake,Trauma-informed,1-3 months,Multidimensional tracking,Enterprise Access,25
+Insurance Provider/EAS,6-15,<100,1:1 therapy,Palliative/Complex,6+ months,Multidimensional tracking,Enterprise Access,10
+Insurance Provider/EAS,16-50,<100,Mixed services,General,3-6 months,Multidimensional tracking,Enterprise Access,25
+Private Practice,6-15,501-1000,High-volume intake,General,6+ months,Real-time tracking,Practice Plus,12
+Insurance Provider/EAS,3-5,100-500,High-volume intake,General,Unsure,Basic self-guided,Enterprise Access,5
+Insurance Provider/EAS,1-2,<100,Group care,Trauma-informed,6+ months,Basic self-guided,Enterprise Access,2
+Insurance Provider/EAS,16-50,100-500,1:1 therapy,Trauma-informed,3-6 months,Affiliate integration,Enterprise Access,25
+Insurance Provider/EAS,3-5,100-500,1:1 therapy,General,6+ months,Multidimensional tracking,Enterprise Access,5
+Insurance Provider/EAS,51+,<100,Mixed services,Trauma-informed,Unsure,Multidimensional tracking,Enterprise Access,50
+Private Practice,6-15,100-500,High-volume intake,General,3-6 months,Affiliate integration,Community Access,10
+Insurance Provider/EAS,6-15,100-500,Mixed services,General,3-6 months,Real-time tracking,Enterprise Access,10
+Insurance Provider/EAS,16-50,<100,Mixed services,General,3-6 months,Basic self-guided,Enterprise Access,25
+Private Practice,6-15,100-500,Mixed services,General,6+ months,Basic self-guided,Practice Plus,10
+Insurance Provider/EAS,3-5,<100,1:1 therapy,General,3-6 months,Multidimensional tracking,Enterprise Access,5
+Public Health Provider,16-50,>1000,High-volume intake,General,3-6 months,Affiliate integration,Enterprise Care,37
+Insurance Provider/EAS,16-50,<100,1:1 therapy,General,1-3 months,Basic self-guided,Enterprise Access,25
+Public Health Provider,6-15,100-500,High-volume intake,Oncology/Cardiology/Neurology,6+ months,Multidimensional tracking,Enterprise Care,10
+Private Practice,6-15,<100,1:1 therapy,Trauma-informed,6+ months,Affiliate integration,Community Access,10
+Insurance Provider/EAS,51+,100-500,High-volume intake,Oncology/Cardiology/Neurology,1-3 months,Multidimensional tracking,Enterprise Access,50
+Private Practice,3-5,100-500,Mixed services,Palliative/Complex,Unsure,Basic self-guided,Practice Plus,5
+Home Care/Group Home,16-50,>1000,High-volume intake,Oncology/Cardiology/Neurology,3-6 months,Real-time tracking,Community Access,37
+Insurance Provider/EAS,3-5,<100,Mixed services,Palliative/Complex,6+ months,Affiliate integration,Enterprise Access,5
+Private Practice,51+,<100,Mixed services,Oncology/Cardiology/Neurology,3-6 months,Real-time tracking,Community Access,50
+Public Health Provider,16-50,<100,Group care,General,3-6 months,Basic self-guided,Enterprise Care,25
+Private Practice,6-15,>1000,High-volume intake,Palliative/Complex,3-6 months,Multidimensional tracking,Community Access,15
+Private Practice,3-5,>1000,High-volume intake,Oncology/Cardiology/Neurology,Unsure,Real-time tracking,Community Access,7
+Home Care/Group Home,6-15,100-500,1:1 therapy,Trauma-informed,3-6 months,Multidimensional tracking,Practice Plus,10
+Insurance Provider/EAS,3-5,100-500,Group care,General,1-3 months,Basic self-guided,Enterprise Access,5
+Insurance Provider/EAS,16-50,<100,Group care,Trauma-informed,1-3 months,Multidimensional tracking,Enterprise Access,25
+Insurance Provider/EAS,16-50,>1000,Mixed services,Trauma-informed,3-6 months,Real-time tracking,Enterprise Access,37
+Public Health Provider,16-50,>1000,High-volume intake,Oncology/Cardiology/Neurology,3-6 months,Affiliate integration,Enterprise Care,37
+Insurance Provider/EAS,51+,>1000,Group care,Palliative/Complex,1-3 months,Affiliate integration,Enterprise Access,75
+Public Health Provider,6-15,>1000,1:1 therapy,General,6+ months,Basic self-guided,Enterprise Care,15
+Private Practice,3-5,501-1000,Mixed services,General,Unsure,Affiliate integration,Community Access,6
+Public Health Provider,1-2,>1000,Group care,Trauma-informed,1-3 months,Real-time tracking,Enterprise Care,3
+Private Practice,6-15,501-1000,Group care,Palliative/Complex,Unsure,Affiliate integration,Community Access,12
+Public Health Provider,3-5,>1000,1:1 therapy,General,1-3 months,Real-time tracking,Enterprise Care,7
+Private Practice,51+,501-1000,1:1 therapy,Oncology/Cardiology/Neurology,3-6 months,Basic self-guided,Community Access,60
+Private Practice,6-15,<100,High-volume intake,Palliative/Complex,3-6 months,Affiliate integration,Community Access,10
+Private Practice,6-15,<100,1:1 therapy,Oncology/Cardiology/Neurology,Unsure,Basic self-guided,Practice Plus,10
+Private Practice,51+,>1000,Group care,Trauma-informed,3-6 months,Affiliate integration,Community Access,75
+Home Care/Group Home,6-15,<100,Mixed services,Trauma-informed,3-6 months,Basic self-guided,Practice Plus,10
+Insurance Provider/EAS,16-50,>1000,Mixed services,General,Unsure,Multidimensional tracking,Enterprise Access,37
+Private Practice,51+,100-500,Mixed services,General,3-6 months,Real-time tracking,Community Access,50
+Insurance Provider/EAS,6-15,501-1000,Mixed services,Trauma-informed,3-6 months,Multidimensional tracking,Enterprise Access,12
+Private Practice,3-5,<100,1:1 therapy,General,1-3 months,Basic self-guided,Fresh Start,5
+Home Care/Group Home,6-15,>1000,Group care,Palliative/Complex,1-3 months,Basic self-guided,Community Access,15
+Private Practice,1-2,501-1000,High-volume intake,General,6+ months,Real-time tracking,Practice Plus,2
+Public Health Provider,6-15,>1000,Mixed services,Oncology/Cardiology/Neurology,6+ months,Basic self-guided,Enterprise Care,15
+Insurance Provider/EAS,16-50,>1000,Mixed services,Trauma-informed,1-3 months,Real-time tracking,Enterprise Access,37
+Home Care/Group Home,51+,501-1000,High-volume intake,General,Unsure,Basic self-guided,Community Access,60
+Private Practice,1-2,<100,Mixed services,Palliative/Complex,1-3 months,Basic self-guided,Practice Plus,2
+Insurance Provider/EAS,51+,>1000,High-volume intake,General,6+ months,Real-time tracking,Enterprise Access,75
+Private Practice,1-2,>1000,1:1 therapy,General,Unsure,Real-time tracking,Community Access,3
+Private Practice,1-2,<100,Group care,General,3-6 months,Real-time tracking,Practice Plus,2
+Private Practice,51+,<100,Group care,Trauma-informed,1-3 months,Real-time tracking,Community Access,50
+Insurance Provider/EAS,6-15,<100,High-volume intake,Oncology/Cardiology/Neurology,Unsure,Affiliate integration,Enterprise Access,10
+Private Practice,16-50,501-1000,Group care,Palliative/Complex,6+ months,Affiliate integration,Community Access,30
+Private Practice,51+,>1000,Group care,General,3-6 months,Multidimensional tracking,Community Access,75
+Private Practice,51+,501-1000,Group care,General,3-6 months,Affiliate integration,Community Access,60
+Home Care/Group Home,3-5,>1000,Group care,Oncology/Cardiology/Neurology,3-6 months,Basic self-guided,Community Access,7
+Insurance Provider/EAS,6-15,>1000,Mixed services,Oncology/Cardiology/Neurology,Unsure,Affiliate integration,Enterprise Access,15
+Insurance Provider/EAS,16-50,501-1000,1:1 therapy,General,6+ months,Affiliate integration,Enterprise Access,30
+Private Practice,6-15,>1000,Mixed services,Oncology/Cardiology/Neurology,Unsure,Multidimensional tracking,Community Access,15
+Public Health Provider,16-50,<100,1:1 therapy,General,1-3 months,Affiliate integration,Enterprise Care,25
+Insurance Provider/EAS,3-5,100-500,Mixed services,Trauma-informed,Unsure,Real-time tracking,Enterprise Access,5
+Private Practice,6-15,<100,High-volume intake,Palliative/Complex,6+ months,Multidimensional tracking,Practice Plus,10
+Private Practice,16-50,<100,High-volume intake,General,1-3 months,Multidimensional tracking,Community Access,25
+Private Practice,6-15,<100,Mixed services,Trauma-informed,3-6 months,Real-time tracking,Practice Plus,10
+Home Care/Group Home,1-2,>1000,High-volume intake,Oncology/Cardiology/Neurology,Unsure,Basic self-guided,Community Access,3
+Private Practice,51+,<100,Group care,Trauma-informed,Unsure,Multidimensional tracking,Community Access,50
+Home Care/Group Home,6-15,501-1000,Mixed services,General,1-3 months,Affiliate integration,Community Access,12
+Private Practice,1-2,>1000,Group care,General,3-6 months,Basic self-guided,Community Access,3
+Home Care/Group Home,16-50,<100,1:1 therapy,Palliative/Complex,3-6 months,Real-time tracking,Community Access,25
+Public Health Provider,16-50,<100,High-volume intake,Palliative/Complex,Unsure,Multidimensional tracking,Enterprise Care,25
+Private Practice,3-5,100-500,High-volume intake,Palliative/Complex,3-6 months,Real-time tracking,Practice Plus,5
+Insurance Provider/EAS,16-50,>1000,Group care,General,1-3 months,Affiliate integration,Enterprise Access,37
+Insurance Provider/EAS,1-2,501-1000,High-volume intake,General,6+ months,Basic self-guided,Enterprise Access,2
+Private Practice,1-2,<100,Mixed services,Oncology/Cardiology/Neurology,6+ months,Affiliate integration,Community Access,2
+Private Practice,16-50,<100,Mixed services,General,6+ months,Multidimensional tracking,Community Access,25
+Insurance Provider/EAS,1-2,>1000,Mixed services,Palliative/Complex,6+ months,Affiliate integration,Enterprise Access,3
+Insurance Provider/EAS,6-15,>1000,Group care,Oncology/Cardiology/Neurology,3-6 months,Affiliate integration,Enterprise Access,15
+Insurance Provider/EAS,6-15,<100,1:1 therapy,Oncology/Cardiology/Neurology,Unsure,Real-time tracking,Enterprise Access,10
+Home Care/Group Home,1-2,501-1000,1:1 therapy,Trauma-informed,1-3 months,Affiliate integration,Community Access,2
+Insurance Provider/EAS,1-2,100-500,High-volume intake,General,6+ months,Affiliate integration,Enterprise Access,2
+Private Practice,16-50,<100,Mixed services,General,6+ months,Real-time tracking,Community Access,25
+Public Health Provider,6-15,>1000,1:1 therapy,General,Unsure,Real-time tracking,Enterprise Care,15
+Home Care/Group Home,1-2,501-1000,Group care,Palliative/Complex,3-6 months,Affiliate integration,Community Access,2
+Public Health Provider,16-50,<100,High-volume intake,Trauma-informed,1-3 months,Affiliate integration,Enterprise Care,25
+Private Practice,1-2,>1000,High-volume intake,Palliative/Complex,3-6 months,Multidimensional tracking,Community Access,3
+Public Health Provider,51+,>1000,Mixed services,General,1-3 months,Multidimensional tracking,Enterprise Care,75
+Private Practice,16-50,<100,Group care,Oncology/Cardiology/Neurology,6+ months,Basic self-guided,Community Access,25
+Insurance Provider/EAS,1-2,>1000,High-volume intake,Palliative/Complex,Unsure,Real-time tracking,Enterprise Access,3
+Private Practice,1-2,>1000,High-volume intake,Trauma-informed,Unsure,Basic self-guided,Community Access,3
+Public Health Provider,16-50,501-1000,High-volume intake,Palliative/Complex,3-6 months,Basic self-guided,Enterprise Care,30
+Private Practice,51+,>1000,Mixed services,General,Unsure,Basic self-guided,Community Access,75
+Public Health Provider,1-2,<100,1:1 therapy,Trauma-informed,1-3 months,Real-time tracking,Enterprise Care,2
+Home Care/Group Home,1-2,>1000,1:1 therapy,Trauma-informed,Unsure,Multidimensional tracking,Community Access,3
+Home Care/Group Home,1-2,501-1000,Group care,General,3-6 months,Multidimensional tracking,Practice Plus,2
+Home Care/Group Home,16-50,<100,1:1 therapy,Trauma-informed,6+ months,Affiliate integration,Community Access,25
+Insurance Provider/EAS,16-50,100-500,Mixed services,Oncology/Cardiology/Neurology,3-6 months,Multidimensional tracking,Enterprise Access,25
+Home Care/Group Home,3-5,501-1000,High-volume intake,Palliative/Complex,Unsure,Affiliate integration,Community Access,6
+Private Practice,1-2,100-500,1:1 therapy,General,3-6 months,Real-time tracking,Practice Plus,2
+Home Care/Group Home,6-15,>1000,Group care,Palliative/Complex,1-3 months,Basic self-guided,Community Access,15
+Private Practice,6-15,>1000,1:1 therapy,Oncology/Cardiology/Neurology,1-3 months,Basic self-guided,Community Access,15
+Private Practice,1-2,100-500,1:1 therapy,General,6+ months,Multidimensional tracking,Practice Plus,2
+Insurance Provider/EAS,3-5,501-1000,1:1 therapy,Oncology/Cardiology/Neurology,Unsure,Real-time tracking,Enterprise Access,6
+Private Practice,1-2,<100,Mixed services,General,1-3 months,Basic self-guided,Fresh Start,2
+Insurance Provider/EAS,6-15,501-1000,High-volume intake,Oncology/Cardiology/Neurology,6+ months,Basic self-guided,Enterprise Access,12
+Private Practice,6-15,501-1000,1:1 therapy,Palliative/Complex,1-3 months,Basic self-guided,Practice Plus,12
+Private Practice,6-15,>1000,Mixed services,Palliative/Complex,1-3 months,Basic self-guided,Community Access,15
+Private Practice,1-2,<100,Group care,Palliative/Complex,3-6 months,Basic self-guided,Practice Plus,2
+Insurance Provider/EAS,6-15,100-500,High-volume intake,Trauma-informed,6+ months,Affiliate integration,Enterprise Access,10
+Insurance Provider/EAS,16-50,100-500,Group care,General,3-6 months,Basic self-guided,Enterprise Access,25
+Private Practice,3-5,<100,High-volume intake,Oncology/Cardiology/Neurology,Unsure,Multidimensional tracking,Practice Plus,5
+Home Care/Group Home,16-50,100-500,High-volume intake,General,6+ months,Real-time tracking,Community Access,25
+Private Practice,1-2,100-500,Group care,Palliative/Complex,1-3 months,Real-time tracking,Practice Plus,2
+Private Practice,6-15,100-500,1:1 therapy,Trauma-informed,Unsure,Affiliate integration,Community Access,10
+Public Health Provider,6-15,<100,Group care,Oncology/Cardiology/Neurology,6+ months,Multidimensional tracking,Enterprise Care,10
+Home Care/Group Home,3-5,<100,1:1 therapy,Oncology/Cardiology/Neurology,6+ months,Affiliate integration,Community Access,5
+Private Practice,51+,501-1000,Group care,Palliative/Complex,3-6 months,Basic self-guided,Community Access,60
+Insurance Provider/EAS,1-2,501-1000,Mixed services,Trauma-informed,Unsure,Basic self-guided,Enterprise Access,2
+Private Practice,3-5,>1000,High-volume intake,General,1-3 months,Basic self-guided,Community Access,7
+Home Care/Group Home,16-50,>1000,Group care,General,6+ months,Multidimensional tracking,Community Access,37
+Private Practice,1-2,501-1000,High-volume intake,General,Unsure,Multidimensional tracking,Practice Plus,2
+Private Practice,1-2,100-500,Mixed services,General,Unsure,Affiliate integration,Community Access,2
+Private Practice,16-50,<100,High-volume intake,General,Unsure,Basic self-guided,Community Access,25
+Private Practice,16-50,501-1000,1:1 therapy,Oncology/Cardiology/Neurology,3-6 months,Multidimensional tracking,Community Access,30
+Insurance Provider/EAS,6-15,100-500,High-volume intake,General,3-6 months,Multidimensional tracking,Enterprise Access,10
+Private Practice,3-5,>1000,Mixed services,Oncology/Cardiology/Neurology,3-6 months,Basic self-guided,Community Access,7
+Insurance Provider/EAS,1-2,<100,Group care,Oncology/Cardiology/Neurology,Unsure,Multidimensional tracking,Enterprise Access,2
+Private Practice,6-15,<100,Mixed services,General,3-6 months,Real-time tracking,Practice Plus,10
+Home Care/Group Home,6-15,100-500,High-volume intake,General,6+ months,Basic self-guided,Practice Plus,10
+Private Practice,3-5,<100,Group care,General,3-6 months,Multidimensional tracking,Practice Plus,5
+Private Practice,16-50,100-500,Mixed services,Oncology/Cardiology/Neurology,1-3 months,Basic self-guided,Community Access,25
+Private Practice,16-50,<100,1:1 therapy,Palliative/Complex,3-6 months,Multidimensional tracking,Community Access,25
+Home Care/Group Home,1-2,<100,1:1 therapy,Oncology/Cardiology/Neurology,3-6 months,Basic self-guided,Practice Plus,2
+Public Health Provider,6-15,501-1000,Group care,Palliative/Complex,1-3 months,Affiliate integration,Enterprise Care,12
+Insurance Provider/EAS,51+,100-500,High-volume intake,General,Unsure,Affiliate integration,Enterprise Access,50
+Private Practice,6-15,<100,Mixed services,Oncology/Cardiology/Neurology,1-3 months,Affiliate integration,Community Access,10
+Insurance Provider/EAS,3-5,501-1000,Mixed services,Oncology/Cardiology/Neurology,1-3 months,Affiliate integration,Enterprise Access,6
+Home Care/Group Home,1-2,>1000,Group care,Oncology/Cardiology/Neurology,6+ months,Basic self-guided,Community Access,3
+Insurance Provider/EAS,51+,<100,1:1 therapy,Oncology/Cardiology/Neurology,6+ months,Affiliate integration,Enterprise Access,50
+Home Care/Group Home,51+,100-500,High-volume intake,General,6+ months,Multidimensional tracking,Community Access,50
+Insurance Provider/EAS,6-15,501-1000,Mixed services,General,Unsure,Multidimensional tracking,Enterprise Access,12
+Private Practice,3-5,>1000,Group care,General,6+ months,Real-time tracking,Community Access,7
+Home Care/Group Home,16-50,>1000,Mixed services,Oncology/Cardiology/Neurology,6+ months,Real-time tracking,Community Access,37
+Private Practice,6-15,<100,Group care,Trauma-informed,6+ months,Affiliate integration,Community Access,10
+Private Practice,1-2,501-1000,Group care,Trauma-informed,1-3 months,Real-time tracking,Practice Plus,2
+Private Practice,16-50,501-1000,High-volume intake,Trauma-informed,Unsure,Affiliate integration,Community Access,30
+Home Care/Group Home,1-2,>1000,Mixed services,General,1-3 months,Basic self-guided,Community Access,3
+Insurance Provider/EAS,6-15,501-1000,Group care,General,1-3 months,Basic self-guided,Enterprise Access,12
+Home Care/Group Home,51+,501-1000,High-volume intake,General,Unsure,Real-time tracking,Community Access,60
+Private Practice,6-15,501-1000,Group care,Oncology/Cardiology/Neurology,Unsure,Real-time tracking,Practice Plus,12
+Private Practice,16-50,100-500,1:1 therapy,General,Unsure,Real-time tracking,Community Access,25
+Home Care/Group Home,6-15,501-1000,Group care,Trauma-informed,1-3 months,Multidimensional tracking,Practice Plus,12
+Insurance Provider/EAS,6-15,<100,Mixed services,Palliative/Complex,1-3 months,Affiliate integration,Enterprise Access,10
+Insurance Provider/EAS,51+,>1000,Mixed services,Palliative/Complex,1-3 months,Multidimensional tracking,Enterprise Access,75
+Public Health Provider,1-2,100-500,Group care,General,Unsure,Real-time tracking,Enterprise Care,2
+Insurance Provider/EAS,6-15,501-1000,Mixed services,General,Unsure,Basic self-guided,Enterprise Access,12
+Home Care/Group Home,3-5,<100,1:1 therapy,General,3-6 months,Multidimensional tracking,Practice Plus,5
+Private Practice,1-2,501-1000,Group care,Trauma-informed,Unsure,Real-time tracking,Practice Plus,2
+Insurance Provider/EAS,3-5,100-500,1:1 therapy,Trauma-informed,6+ months,Multidimensional tracking,Enterprise Access,5
+Home Care/Group Home,6-15,>1000,High-volume intake,Palliative/Complex,3-6 months,Affiliate integration,Community Access,15
+Home Care/Group Home,51+,501-1000,1:1 therapy,Palliative/Complex,1-3 months,Basic self-guided,Community Access,60
+Insurance Provider/EAS,51+,<100,High-volume intake,General,1-3 months,Basic self-guided,Enterprise Access,50
+Insurance Provider/EAS,1-2,501-1000,High-volume intake,Palliative/Complex,3-6 months,Real-time tracking,Enterprise Access,2
+Public Health Provider,16-50,>1000,Mixed services,Oncology/Cardiology/Neurology,3-6 months,Multidimensional tracking,Enterprise Care,37
+Insurance Provider/EAS,51+,>1000,High-volume intake,Oncology/Cardiology/Neurology,6+ months,Multidimensional tracking,Enterprise Access,75
+Insurance Provider/EAS,3-5,>1000,High-volume intake,General,3-6 months,Real-time tracking,Enterprise Access,7
+Public Health Provider,6-15,<100,Mixed services,Oncology/Cardiology/Neurology,1-3 months,Affiliate integration,Enterprise Care,10
+Insurance Provider/EAS,51+,100-500,Group care,General,3-6 months,Basic self-guided,Enterprise Access,50
+Insurance Provider/EAS,3-5,>1000,1:1 therapy,General,Unsure,Basic self-guided,Enterprise Access,7
+Insurance Provider/EAS,16-50,501-1000,1:1 therapy,General,6+ months,Basic self-guided,Enterprise Access,30
+Public Health Provider,16-50,>1000,Mixed services,Palliative/Complex,6+ months,Basic self-guided,Enterprise Care,37
+Private Practice,16-50,501-1000,1:1 therapy,General,6+ months,Real-time tracking,Community Access,30
+Private Practice,16-50,501-1000,1:1 therapy,Trauma-informed,3-6 months,Affiliate integration,Community Access,30
+Insurance Provider/EAS,51+,501-1000,1:1 therapy,General,Unsure,Multidimensional tracking,Enterprise Access,60
+Insurance Provider/EAS,16-50,501-1000,1:1 therapy,General,1-3 months,Multidimensional tracking,Enterprise Access,30
+Public Health Provider,16-50,<100,Group care,General,3-6 months,Multidimensional tracking,Enterprise Care,25
+Private Practice,1-2,501-1000,High-volume intake,General,Unsure,Real-time tracking,Practice Plus,2
+Public Health Provider,1-2,>1000,High-volume intake,Trauma-informed,3-6 months,Basic self-guided,Enterprise Care,3
+Public Health Provider,3-5,>1000,1:1 therapy,Trauma-informed,6+ months,Real-time tracking,Enterprise Care,7
+Home Care/Group Home,1-2,>1000,1:1 therapy,Trauma-informed,1-3 months,Real-time tracking,Community Access,3
+Private Practice,16-50,100-500,High-volume intake,General,Unsure,Multidimensional tracking,Community Access,25
+Private Practice,1-2,>1000,1:1 therapy,General,6+ months,Basic self-guided,Community Access,3
+Insurance Provider/EAS,3-5,<100,Mixed services,General,3-6 months,Real-time tracking,Enterprise Access,5
+Insurance Provider/EAS,3-5,100-500,1:1 therapy,General,3-6 months,Affiliate integration,Enterprise Access,5
+Private Practice,1-2,>1000,Group care,General,1-3 months,Affiliate integration,Community Access,3
+Home Care/Group Home,3-5,>1000,Group care,Trauma-informed,Unsure,Affiliate integration,Community Access,7
+Public Health Provider,1-2,>1000,Mixed services,Palliative/Complex,6+ months,Real-time tracking,Enterprise Care,3
+Insurance Provider/EAS,6-15,501-1000,Group care,General,1-3 months,Real-time tracking,Enterprise Access,12
+Private Practice,51+,<100,1:1 therapy,Trauma-informed,6+ months,Multidimensional tracking,Community Access,50
+Private Practice,16-50,>1000,Mixed services,General,Unsure,Basic self-guided,Community Access,37
+Home Care/Group Home,6-15,<100,Mixed services,Palliative/Complex,1-3 months,Affiliate integration,Community Access,10
+Public Health Provider,51+,100-500,High-volume intake,General,6+ months,Basic self-guided,Enterprise Care,50
+Insurance Provider/EAS,3-5,100-500,Mixed services,Oncology/Cardiology/Neurology,Unsure,Affiliate integration,Enterprise Access,5
+Private Practice,16-50,100-500,Mixed services,Palliative/Complex,1-3 months,Multidimensional tracking,Community Access,25
+Home Care/Group Home,3-5,501-1000,High-volume intake,Oncology/Cardiology/Neurology,3-6 months,Basic self-guided,Practice Plus,6
+Insurance Provider/EAS,3-5,>1000,High-volume intake,General,3-6 months,Basic self-guided,Enterprise Access,7
+Public Health Provider,51+,501-1000,High-volume intake,Palliative/Complex,Unsure,Multidimensional tracking,Enterprise Care,60
+Home Care/Group Home,16-50,501-1000,High-volume intake,Palliative/Complex,6+ months,Multidimensional tracking,Community Access,30
+Private Practice,16-50,<100,High-volume intake,General,3-6 months,Real-time tracking,Community Access,25
+Private Practice,3-5,<100,Mixed services,Trauma-informed,6+ months,Multidimensional tracking,Practice Plus,5
+Insurance Provider/EAS,3-5,100-500,High-volume intake,Trauma-informed,Unsure,Basic self-guided,Enterprise Access,5
+Home Care/Group Home,51+,100-500,Group care,Palliative/Complex,3-6 months,Real-time tracking,Community Access,50
+Private Practice,51+,501-1000,Group care,Oncology/Cardiology/Neurology,3-6 months,Basic self-guided,Community Access,60
+Private Practice,51+,501-1000,Mixed services,Palliative/Complex,Unsure,Affiliate integration,Community Access,60
+Public Health Provider,6-15,501-1000,Mixed services,Trauma-informed,1-3 months,Multidimensional tracking,Enterprise Care,12
+Private Practice,16-50,>1000,Mixed services,Trauma-informed,3-6 months,Real-time tracking,Community Access,37
+Private Practice,6-15,<100,1:1 therapy,Palliative/Complex,6+ months,Affiliate integration,Community Access,10
+Insurance Provider/EAS,3-5,100-500,Group care,General,6+ months,Basic self-guided,Enterprise Access,5
+Home Care/Group Home,3-5,<100,High-volume intake,General,Unsure,Real-time tracking,Practice Plus,5
+Home Care/Group Home,51+,100-500,Mixed services,Trauma-informed,Unsure,Affiliate integration,Community Access,50
+Insurance Provider/EAS,6-15,501-1000,1:1 therapy,General,Unsure,Real-time tracking,Enterprise Access,12
+Public Health Provider,16-50,<100,1:1 therapy,General,1-3 months,Multidimensional tracking,Enterprise Care,25
+Home Care/Group Home,3-5,501-1000,High-volume intake,General,3-6 months,Multidimensional tracking,Practice Plus,6
+Insurance Provider/EAS,6-15,100-500,1:1 therapy,General,1-3 months,Affiliate integration,Enterprise Access,10
+Home Care/Group Home,51+,100-500,Mixed services,General,Unsure,Affiliate integration,Community Access,50
+Home Care/Group Home,6-15,<100,Mixed services,Oncology/Cardiology/Neurology,6+ months,Basic self-guided,Practice Plus,10
+Private Practice,16-50,<100,Group care,Palliative/Complex,1-3 months,Affiliate integration,Community Access,25
+Private Practice,1-2,100-500,1:1 therapy,General,Unsure,Basic self-guided,Fresh Start,2
+Private Practice,16-50,<100,Group care,Palliative/Complex,3-6 months,Basic self-guided,Community Access,25
+Home Care/Group Home,3-5,501-1000,High-volume intake,Trauma-informed,1-3 months,Real-time tracking,Practice Plus,6
+Home Care/Group Home,3-5,>1000,1:1 therapy,General,Unsure,Basic self-guided,Community Access,7
+Public Health Provider,6-15,<100,High-volume intake,General,6+ months,Affiliate integration,Enterprise Care,10
+Insurance Provider/EAS,3-5,>1000,1:1 therapy,Oncology/Cardiology/Neurology,Unsure,Affiliate integration,Enterprise Access,7
+Private Practice,3-5,>1000,1:1 therapy,Oncology/Cardiology/Neurology,1-3 months,Multidimensional tracking,Community Access,7
+Private Practice,16-50,100-500,1:1 therapy,General,3-6 months,Affiliate integration,Community Access,25
+Home Care/Group Home,1-2,501-1000,High-volume intake,Palliative/Complex,Unsure,Affiliate integration,Community Access,2
+Private Practice,3-5,<100,Mixed services,General,Unsure,Affiliate integration,Community Access,5
+Private Practice,1-2,501-1000,1:1 therapy,General,6+ months,Basic self-guided,Fresh Start,2
+Insurance Provider/EAS,51+,100-500,1:1 therapy,General,1-3 months,Multidimensional tracking,Enterprise Access,50
+Private Practice,51+,<100,Group care,General,6+ months,Real-time tracking,Community Access,50
+Insurance Provider/EAS,16-50,501-1000,Mixed services,General,6+ months,Multidimensional tracking,Enterprise Access,30
+Home Care/Group Home,6-15,501-1000,Mixed services,Trauma-informed,1-3 months,Basic self-guided,Practice Plus,12
+Private Practice,3-5,100-500,Group care,Palliative/Complex,Unsure,Affiliate integration,Community Access,5
+Insurance Provider/EAS,1-2,100-500,Mixed services,Palliative/Complex,3-6 months,Multidimensional tracking,Enterprise Access,2
+Home Care/Group Home,51+,100-500,1:1 therapy,General,Unsure,Affiliate integration,Community Access,50
+Private Practice,3-5,100-500,Mixed services,General,6+ months,Real-time tracking,Practice Plus,5
+Private Practice,6-15,>1000,Group care,Oncology/Cardiology/Neurology,1-3 months,Multidimensional tracking,Community Access,15
+Home Care/Group Home,1-2,501-1000,1:1 therapy,Oncology/Cardiology/Neurology,1-3 months,Basic self-guided,Practice Plus,2
+Public Health Provider,6-15,>1000,1:1 therapy,Palliative/Complex,Unsure,Real-time tracking,Enterprise Care,15
+Private Practice,6-15,100-500,1:1 therapy,General,3-6 months,Affiliate integration,Community Access,10
+Home Care/Group Home,1-2,<100,Group care,Palliative/Complex,1-3 months,Basic self-guided,Practice Plus,2
+Private Practice,16-50,>1000,1:1 therapy,Palliative/Complex,6+ months,Basic self-guided,Community Access,37
+Public Health Provider,51+,501-1000,Mixed services,Oncology/Cardiology/Neurology,6+ months,Real-time tracking,Enterprise Care,60
+Insurance Provider/EAS,16-50,100-500,1:1 therapy,General,Unsure,Affiliate integration,Enterprise Access,25
+Insurance Provider/EAS,3-5,<100,Group care,Palliative/Complex,6+ months,Multidimensional tracking,Enterprise Access,5
+Private Practice,51+,501-1000,Group care,Oncology/Cardiology/Neurology,1-3 months,Multidimensional tracking,Community Access,60
+Insurance Provider/EAS,1-2,<100,High-volume intake,Oncology/Cardiology/Neurology,Unsure,Basic self-guided,Enterprise Access,2
+Home Care/Group Home,6-15,501-1000,Mixed services,General,6+ months,Real-time tracking,Practice Plus,12
+Public Health Provider,16-50,>1000,High-volume intake,General,3-6 months,Affiliate integration,Enterprise Care,37
+Private Practice,6-15,100-500,Mixed services,Palliative/Complex,6+ months,Real-time tracking,Practice Plus,10
+Insurance Provider/EAS,16-50,<100,1:1 therapy,General,1-3 months,Affiliate integration,Enterprise Access,25
+Insurance Provider/EAS,16-50,<100,Group care,General,1-3 months,Multidimensional tracking,Enterprise Access,25
+Private Practice,6-15,<100,Group care,General,1-3 months,Affiliate integration,Community Access,10
+Private Practice,6-15,100-500,Group care,General,Unsure,Basic self-guided,Practice Plus,10
+Private Practice,6-15,>1000,Group care,Trauma-informed,Unsure,Basic self-guided,Community Access,15
+Private Practice,3-5,<100,1:1 therapy,General,3-6 months,Basic self-guided,Fresh Start,5
+Home Care/Group Home,3-5,100-500,Group care,General,3-6 months,Basic self-guided,Practice Plus,5
+Public Health Provider,3-5,>1000,1:1 therapy,General,1-3 months,Multidimensional tracking,Enterprise Care,7
+Insurance Provider/EAS,6-15,100-500,Group care,Oncology/Cardiology/Neurology,Unsure,Real-time tracking,Enterprise Access,10
+Insurance Provider/EAS,3-5,100-500,Group care,General,6+ months,Affiliate integration,Enterprise Access,5
+Insurance Provider/EAS,16-50,501-1000,1:1 therapy,General,Unsure,Affiliate integration,Enterprise Access,30
+Private Practice,3-5,100-500,1:1 therapy,General,6+ months,Real-time tracking,Practice Plus,5
+Insurance Provider/EAS,3-5,<100,1:1 therapy,Trauma-informed,3-6 months,Basic self-guided,Enterprise Access,5
+Private Practice,6-15,>1000,Group care,Palliative/Complex,1-3 months,Affiliate integration,Community Access,15
+Insurance Provider/EAS,3-5,<100,High-volume intake,General,6+ months,Multidimensional tracking,Enterprise Access,5
+Insurance Provider/EAS,16-50,100-500,Group care,Trauma-informed,Unsure,Basic self-guided,Enterprise Access,25
+Insurance Provider/EAS,16-50,501-1000,1:1 therapy,Oncology/Cardiology/Neurology,6+ months,Basic self-guided,Enterprise Access,30
+Insurance Provider/EAS,1-2,<100,Group care,General,Unsure,Real-time tracking,Enterprise Access,2
+Home Care/Group Home,1-2,100-500,Group care,Trauma-informed,3-6 months,Affiliate integration,Community Access,2
+Home Care/Group Home,51+,501-1000,1:1 therapy,Oncology/Cardiology/Neurology,6+ months,Multidimensional tracking,Community Access,60
+Private Practice,1-2,501-1000,Group care,Palliative/Complex,Unsure,Basic self-guided,Practice Plus,2
+Private Practice,1-2,100-500,Group care,Trauma-informed,Unsure,Affiliate integration,Community Access,2
+Insurance Provider/EAS,16-50,501-1000,Mixed services,General,1-3 months,Real-time tracking,Enterprise Access,30
+Insurance Provider/EAS,3-5,>1000,High-volume intake,Oncology/Cardiology/Neurology,6+ months,Real-time tracking,Enterprise Access,7
+Private Practice,6-15,>1000,Group care,General,6+ months,Real-time tracking,Community Access,15
+Home Care/Group Home,6-15,>1000,High-volume intake,General,Unsure,Real-time tracking,Community Access,15
+Private Practice,1-2,501-1000,Mixed services,Palliative/Complex,Unsure,Affiliate integration,Community Access,2
+Public Health Provider,1-2,<100,1:1 therapy,Oncology/Cardiology/Neurology,1-3 months,Affiliate integration,Enterprise Care,2
+Insurance Provider/EAS,16-50,<100,Group care,Palliative/Complex,3-6 months,Multidimensional tracking,Enterprise Access,25
+Public Health Provider,3-5,<100,Group care,General,Unsure,Real-time tracking,Enterprise Care,5
+Private Practice,16-50,100-500,Mixed services,General,6+ months,Multidimensional tracking,Community Access,25
+Private Practice,6-15,100-500,1:1 therapy,General,3-6 months,Multidimensional tracking,Practice Plus,10
+Private Practice,6-15,100-500,Mixed services,Palliative/Complex,6+ months,Basic self-guided,Practice Plus,10
+Public Health Provider,3-5,<100,1:1 therapy,Palliative/Complex,1-3 months,Multidimensional tracking,Enterprise Care,5
+Private Practice,1-2,100-500,Mixed services,Trauma-informed,6+ months,Affiliate integration,Community Access,2
+Public Health Provider,16-50,501-1000,High-volume intake,Palliative/Complex,1-3 months,Multidimensional tracking,Enterprise Care,30
+Home Care/Group Home,6-15,>1000,Group care,Oncology/Cardiology/Neurology,1-3 months,Basic self-guided,Community Access,15
+Private Practice,16-50,>1000,1:1 therapy,Palliative/Complex,3-6 months,Multidimensional tracking,Community Access,37
+Public Health Provider,51+,>1000,Group care,General,3-6 months,Real-time tracking,Enterprise Care,75
+Home Care/Group Home,1-2,<100,1:1 therapy,Palliative/Complex,3-6 months,Affiliate integration,Community Access,2
+Public Health Provider,1-2,100-500,1:1 therapy,Trauma-informed,1-3 months,Multidimensional tracking,Enterprise Care,2
+Home Care/Group Home,6-15,100-500,1:1 therapy,General,1-3 months,Basic self-guided,Practice Plus,10
+Private Practice,51+,>1000,Group care,General,Unsure,Affiliate integration,Community Access,75
+Private Practice,51+,100-500,1:1 therapy,Trauma-informed,3-6 months,Real-time tracking,Community Access,50
+Insurance Provider/EAS,1-2,100-500,1:1 therapy,Oncology/Cardiology/Neurology,Unsure,Real-time tracking,Enterprise Access,2
+Home Care/Group Home,3-5,100-500,High-volume intake,General,Unsure,Real-time tracking,Practice Plus,5
+Private Practice,16-50,501-1000,Group care,General,6+ months,Real-time tracking,Community Access,30
+Insurance Provider/EAS,16-50,>1000,Mixed services,Palliative/Complex,1-3 months,Affiliate integration,Enterprise Access,37
+Public Health Provider,1-2,501-1000,High-volume intake,Trauma-informed,6+ months,Real-time tracking,Enterprise Care,2
+Insurance Provider/EAS,3-5,100-500,High-volume intake,Oncology/Cardiology/Neurology,1-3 months,Real-time tracking,Enterprise Access,5
+Insurance Provider/EAS,51+,>1000,1:1 therapy,Oncology/Cardiology/Neurology,1-3 months,Basic self-guided,Enterprise Access,75
+Private Practice,3-5,<100,High-volume intake,General,3-6 months,Basic self-guided,Practice Plus,5
+Private Practice,3-5,<100,High-volume intake,Oncology/Cardiology/Neurology,1-3 months,Real-time tracking,Practice Plus,5
+Public Health Provider,1-2,501-1000,1:1 therapy,Oncology/Cardiology/Neurology,1-3 months,Basic self-guided,Enterprise Care,2
+Insurance Provider/EAS,3-5,>1000,Mixed services,General,Unsure,Basic self-guided,Enterprise Access,7
+Private Practice,1-2,<100,1:1 therapy,Palliative/Complex,1-3 months,Affiliate integration,Community Access,2
+Insurance Provider/EAS,1-2,501-1000,Group care,Oncology/Cardiology/Neurology,6+ months,Real-time tracking,Enterprise Access,2
+Private Practice,6-15,501-1000,1:1 therapy,Oncology/Cardiology/Neurology,1-3 months,Multidimensional tracking,Practice Plus,12
+Insurance Provider/EAS,3-5,>1000,Mixed services,Palliative/Complex,Unsure,Affiliate integration,Enterprise Access,7
+Private Practice,16-50,501-1000,Mixed services,Oncology/Cardiology/Neurology,1-3 months,Basic self-guided,Community Access,30
+Private Practice,51+,<100,Group care,Oncology/Cardiology/Neurology,Unsure,Basic self-guided,Community Access,50
+Private Practice,51+,501-1000,High-volume intake,General,3-6 months,Multidimensional tracking,Community Access,60
+Private Practice,16-50,501-1000,Mixed services,Trauma-informed,3-6 months,Affiliate integration,Community Access,30
+Public Health Provider,6-15,100-500,High-volume intake,Palliative/Complex,Unsure,Basic self-guided,Enterprise Care,10
+Private Practice,16-50,100-500,1:1 therapy,General,Unsure,Basic self-guided,Community Access,25
+Private Practice,1-2,100-500,Group care,Trauma-informed,1-3 months,Real-time tracking,Practice Plus,2
+Public Health Provider,3-5,>1000,1:1 therapy,General,6+ months,Multidimensional tracking,Enterprise Care,7
+Public Health Provider,6-15,501-1000,Mixed services,General,Unsure,Real-time tracking,Enterprise Care,12
+Public Health Provider,1-2,>1000,High-volume intake,Trauma-informed,1-3 months,Multidimensional tracking,Enterprise Care,3
+Public Health Provider,3-5,<100,1:1 therapy,Trauma-informed,3-6 months,Multidimensional tracking,Enterprise Care,5
+Private Practice,51+,501-1000,Group care,General,Unsure,Affiliate integration,Community Access,60
+Insurance Provider/EAS,51+,501-1000,Group care,Oncology/Cardiology/Neurology,Unsure,Real-time tracking,Enterprise Access,60
+Private Practice,1-2,100-500,Group care,General,6+ months,Real-time tracking,Practice Plus,2
+Private Practice,1-2,>1000,Group care,Trauma-informed,6+ months,Affiliate integration,Community Access,3
+Home Care/Group Home,51+,<100,Group care,General,Unsure,Basic self-guided,Community Access,50
+Private Practice,51+,501-1000,Mixed services,Palliative/Complex,3-6 months,Affiliate integration,Community Access,60
+Public Health Provider,16-50,>1000,High-volume intake,Palliative/Complex,Unsure,Multidimensional tracking,Enterprise Care,37
+Public Health Provider,16-50,>1000,1:1 therapy,Oncology/Cardiology/Neurology,1-3 months,Basic self-guided,Enterprise Care,37
+Insurance Provider/EAS,51+,<100,Mixed services,General,1-3 months,Multidimensional tracking,Enterprise Access,50
+Insurance Provider/EAS,3-5,>1000,Group care,Oncology/Cardiology/Neurology,3-6 months,Affiliate integration,Enterprise Access,7
+Private Practice,51+,501-1000,Mixed services,Trauma-informed,3-6 months,Real-time tracking,Community Access,60
+Public Health Provider,1-2,100-500,1:1 therapy,General,Unsure,Affiliate integration,Enterprise Care,2
+Home Care/Group Home,6-15,<100,High-volume intake,Palliative/Complex,1-3 months,Real-time tracking,Practice Plus,10
+Insurance Provider/EAS,6-15,501-1000,High-volume intake,General,1-3 months,Basic self-guided,Enterprise Access,12
+Insurance Provider/EAS,16-50,501-1000,High-volume intake,Palliative/Complex,3-6 months,Affiliate integration,Enterprise Access,30
+Insurance Provider/EAS,16-50,>1000,1:1 therapy,General,3-6 months,Affiliate integration,Enterprise Access,37
+Public Health Provider,3-5,<100,Mixed services,General,6+ months,Affiliate integration,Enterprise Care,5
+Private Practice,3-5,501-1000,High-volume intake,Trauma-informed,1-3 months,Basic self-guided,Practice Plus,6
+Private Practice,1-2,>1000,1:1 therapy,Trauma-informed,6+ months,Affiliate integration,Community Access,3
+Private Practice,51+,501-1000,1:1 therapy,General,6+ months,Affiliate integration,Community Access,60
+Home Care/Group Home,3-5,501-1000,Mixed services,Oncology/Cardiology/Neurology,6+ months,Basic self-guided,Practice Plus,6
+Home Care/Group Home,16-50,100-500,Mixed services,Palliative/Complex,3-6 months,Multidimensional tracking,Community Access,25
+Home Care/Group Home,6-15,>1000,High-volume intake,Palliative/Complex,6+ months,Affiliate integration,Community Access,15
+Home Care/Group Home,6-15,<100,Mixed services,Oncology/Cardiology/Neurology,1-3 months,Affiliate integration,Community Access,10
+Private Practice,1-2,100-500,Group care,Oncology/Cardiology/Neurology,1-3 months,Multidimensional tracking,Practice Plus,2
+Public Health Provider,1-2,501-1000,Mixed services,Trauma-informed,3-6 months,Real-time tracking,Enterprise Care,2
+Private Practice,51+,100-500,Group care,General,3-6 months,Multidimensional tracking,Community Access,50
+Insurance Provider/EAS,6-15,501-1000,High-volume intake,Palliative/Complex,3-6 months,Multidimensional tracking,Enterprise Access,12
+Home Care/Group Home,6-15,>1000,Mixed services,Palliative/Complex,1-3 months,Basic self-guided,Community Access,15
+Private Practice,1-2,100-500,Group care,Palliative/Complex,3-6 months,Affiliate integration,Community Access,2
+Private Practice,6-15,100-500,Mixed services,General,Unsure,Real-time tracking,Practice Plus,10
+Insurance Provider/EAS,16-50,>1000,High-volume intake,Palliative/Complex,3-6 months,Affiliate integration,Enterprise Access,37
+Insurance Provider/EAS,51+,501-1000,High-volume intake,Trauma-informed,6+ months,Basic self-guided,Enterprise Access,60
+Public Health Provider,1-2,501-1000,High-volume intake,General,3-6 months,Basic self-guided,Enterprise Care,2
+Private Practice,1-2,>1000,High-volume intake,Palliative/Complex,3-6 months,Real-time tracking,Community Access,3
+Private Practice,51+,501-1000,Mixed services,Palliative/Complex,Unsure,Real-time tracking,Community Access,60
+Home Care/Group Home,6-15,100-500,High-volume intake,Trauma-informed,6+ months,Multidimensional tracking,Practice Plus,10
+Insurance Provider/EAS,6-15,>1000,Group care,General,3-6 months,Multidimensional tracking,Enterprise Access,15
+Insurance Provider/EAS,51+,>1000,High-volume intake,Palliative/Complex,1-3 months,Multidimensional tracking,Enterprise Access,75
+Insurance Provider/EAS,16-50,>1000,High-volume intake,Trauma-informed,3-6 months,Multidimensional tracking,Enterprise Access,37
+Insurance Provider/EAS,16-50,100-500,High-volume intake,General,Unsure,Basic self-guided,Enterprise Access,25
+Private Practice,16-50,<100,Group care,Palliative/Complex,6+ months,Real-time tracking,Community Access,25
+Private Practice,3-5,501-1000,High-volume intake,Trauma-informed,3-6 months,Multidimensional tracking,Practice Plus,6
+Insurance Provider/EAS,3-5,>1000,Mixed services,General,6+ months,Multidimensional tracking,Enterprise Access,7
+Insurance Provider/EAS,1-2,<100,High-volume intake,Palliative/Complex,3-6 months,Basic self-guided,Enterprise Access,2
+Public Health Provider,51+,>1000,Group care,Oncology/Cardiology/Neurology,1-3 months,Basic self-guided,Enterprise Care,75
+Private Practice,6-15,>1000,Mixed services,Trauma-informed,3-6 months,Affiliate integration,Community Access,15
+Insurance Provider/EAS,51+,<100,Mixed services,Palliative/Complex,Unsure,Real-time tracking,Enterprise Access,50
+Insurance Provider/EAS,3-5,<100,Mixed services,Trauma-informed,Unsure,Multidimensional tracking,Enterprise Access,5
+Private Practice,16-50,501-1000,1:1 therapy,Palliative/Complex,3-6 months,Multidimensional tracking,Community Access,30
+Private Practice,16-50,501-1000,1:1 therapy,Oncology/Cardiology/Neurology,Unsure,Basic self-guided,Community Access,30
+Home Care/Group Home,1-2,<100,Group care,Oncology/Cardiology/Neurology,1-3 months,Multidimensional tracking,Practice Plus,2
+Private Practice,16-50,>1000,High-volume intake,Palliative/Complex,1-3 months,Multidimensional tracking,Community Access,37
+Insurance Provider/EAS,16-50,<100,Group care,Palliative/Complex,6+ months,Basic self-guided,Enterprise Access,25
+Private Practice,51+,100-500,Mixed services,Oncology/Cardiology/Neurology,3-6 months,Basic self-guided,Community Access,50
+Public Health Provider,6-15,100-500,High-volume intake,Palliative/Complex,Unsure,Basic self-guided,Enterprise Care,10
+Public Health Provider,51+,501-1000,1:1 therapy,General,1-3 months,Affiliate integration,Enterprise Care,60
+Insurance Provider/EAS,51+,100-500,Mixed services,General,3-6 months,Multidimensional tracking,Enterprise Access,50
+Insurance Provider/EAS,3-5,100-500,1:1 therapy,Trauma-informed,1-3 months,Basic self-guided,Enterprise Access,5
+Insurance Provider/EAS,1-2,<100,High-volume intake,General,Unsure,Real-time tracking,Enterprise Access,2
+Insurance Provider/EAS,6-15,<100,High-volume intake,General,Unsure,Affiliate integration,Enterprise Access,10
+Insurance Provider/EAS,6-15,<100,High-volume intake,General,Unsure,Basic self-guided,Enterprise Access,10
+Public Health Provider,3-5,100-500,Group care,Oncology/Cardiology/Neurology,3-6 months,Affiliate integration,Enterprise Care,5
+Home Care/Group Home,3-5,<100,Group care,Palliative/Complex,1-3 months,Affiliate integration,Community Access,5
+Insurance Provider/EAS,51+,>1000,High-volume intake,Trauma-informed,6+ months,Multidimensional tracking,Enterprise Access,75
+Private Practice,16-50,100-500,Mixed services,Oncology/Cardiology/Neurology,6+ months,Multidimensional tracking,Community Access,25
+Insurance Provider/EAS,1-2,<100,Mixed services,Palliative/Complex,6+ months,Basic self-guided,Enterprise Access,2
+Public Health Provider,6-15,100-500,Mixed services,General,6+ months,Multidimensional tracking,Enterprise Care,10
+Public Health Provider,1-2,<100,Mixed services,General,3-6 months,Multidimensional tracking,Enterprise Care,2
+Private Practice,3-5,100-500,High-volume intake,Trauma-informed,6+ months,Affiliate integration,Community Access,5
+Public Health Provider,3-5,<100,1:1 therapy,Oncology/Cardiology/Neurology,6+ months,Multidimensional tracking,Enterprise Care,5
+Private Practice,3-5,100-500,1:1 therapy,Trauma-informed,6+ months,Real-time tracking,Practice Plus,5
+Insurance Provider/EAS,1-2,501-1000,High-volume intake,General,1-3 months,Basic self-guided,Enterprise Access,2
+Home Care/Group Home,6-15,501-1000,Mixed services,Oncology/Cardiology/Neurology,3-6 months,Affiliate integration,Community Access,12
+Insurance Provider/EAS,16-50,100-500,Group care,Palliative/Complex,6+ months,Multidimensional tracking,Enterprise Access,25
+Public Health Provider,3-5,<100,High-volume intake,General,1-3 months,Multidimensional tracking,Enterprise Care,5
+Private Practice,1-2,<100,Mixed services,Trauma-informed,3-6 months,Affiliate integration,Community Access,2
+Private Practice,6-15,100-500,Mixed services,General,Unsure,Basic self-guided,Practice Plus,10
+Insurance Provider/EAS,1-2,501-1000,Mixed services,General,Unsure,Real-time tracking,Enterprise Access,2
+Home Care/Group Home,16-50,501-1000,1:1 therapy,General,Unsure,Multidimensional tracking,Community Access,30
+Insurance Provider/EAS,51+,<100,High-volume intake,Oncology/Cardiology/Neurology,3-6 months,Multidimensional tracking,Enterprise Access,50
+Private Practice,3-5,<100,Group care,Trauma-informed,Unsure,Real-time tracking,Practice Plus,5
+Insurance Provider/EAS,51+,501-1000,Group care,Palliative/Complex,1-3 months,Affiliate integration,Enterprise Access,60
+Private Practice,1-2,<100,Mixed services,Oncology/Cardiology/Neurology,3-6 months,Affiliate integration,Community Access,2
+Home Care/Group Home,16-50,>1000,High-volume intake,General,Unsure,Affiliate integration,Community Access,37
+Insurance Provider/EAS,1-2,100-500,Group care,Palliative/Complex,1-3 months,Basic self-guided,Enterprise Access,2
+Home Care/Group Home,16-50,100-500,1:1 therapy,Trauma-informed,1-3 months,Multidimensional tracking,Community Access,25
+Insurance Provider/EAS,3-5,100-500,Group care,Oncology/Cardiology/Neurology,3-6 months,Basic self-guided,Enterprise Access,5
+Insurance Provider/EAS,1-2,100-500,1:1 therapy,General,6+ months,Multidimensional tracking,Enterprise Access,2
+Insurance Provider/EAS,16-50,501-1000,Group care,General,6+ months,Real-time tracking,Enterprise Access,30
+Private Practice,6-15,>1000,Group care,Oncology/Cardiology/Neurology,Unsure,Basic self-guided,Community Access,15
+Insurance Provider/EAS,6-15,<100,Mixed services,General,1-3 months,Basic self-guided,Enterprise Access,10
+Private Practice,6-15,<100,Group care,General,1-3 months,Affiliate integration,Community Access,10
+Private Practice,1-2,>1000,Mixed services,Trauma-informed,6+ months,Multidimensional tracking,Community Access,3
+Insurance Provider/EAS,3-5,<100,High-volume intake,Trauma-informed,Unsure,Basic self-guided,Enterprise Access,5
+Insurance Provider/EAS,16-50,100-500,Group care,General,6+ months,Real-time tracking,Enterprise Access,25
+Private Practice,3-5,501-1000,High-volume intake,General,Unsure,Basic self-guided,Practice Plus,6
+Private Practice,51+,501-1000,1:1 therapy,General,6+ months,Real-time tracking,Community Access,60
+Private Practice,51+,501-1000,1:1 therapy,General,6+ months,Basic self-guided,Community Access,60
+Public Health Provider,1-2,<100,Group care,General,1-3 months,Real-time tracking,Enterprise Care,2
+Private Practice,51+,100-500,High-volume intake,General,6+ months,Multidimensional tracking,Community Access,50
+Public Health Provider,51+,501-1000,1:1 therapy,Oncology/Cardiology/Neurology,1-3 months,Multidimensional tracking,Enterprise Care,60
+Home Care/Group Home,51+,100-500,Group care,Trauma-informed,1-3 months,Real-time tracking,Community Access,50
+Insurance Provider/EAS,51+,100-500,Mixed services,General,6+ months,Multidimensional tracking,Enterprise Access,50
+Private Practice,16-50,<100,1:1 therapy,Trauma-informed,1-3 months,Affiliate integration,Community Access,25
+Private Practice,6-15,501-1000,High-volume intake,General,6+ months,Basic self-guided,Practice Plus,12
+Private Practice,16-50,>1000,High-volume intake,Oncology/Cardiology/Neurology,Unsure,Multidimensional tracking,Community Access,37
+Public Health Provider,51+,<100,1:1 therapy,Palliative/Complex,3-6 months,Basic self-guided,Enterprise Care,50
+Private Practice,16-50,<100,Group care,Trauma-informed,3-6 months,Basic self-guided,Community Access,25
+Insurance Provider/EAS,16-50,>1000,High-volume intake,General,Unsure,Real-time tracking,Enterprise Access,37
+Insurance Provider/EAS,3-5,>1000,Mixed services,Palliative/Complex,6+ months,Affiliate integration,Enterprise Access,7
+Insurance Provider/EAS,6-15,501-1000,1:1 therapy,General,3-6 months,Multidimensional tracking,Enterprise Access,12
+Insurance Provider/EAS,16-50,501-1000,High-volume intake,Trauma-informed,1-3 months,Multidimensional tracking,Enterprise Access,30
+Private Practice,3-5,100-500,Group care,General,1-3 months,Basic self-guided,Practice Plus,5
+Private Practice,3-5,501-1000,Group care,General,1-3 months,Real-time tracking,Practice Plus,6
+Private Practice,3-5,<100,Group care,General,1-3 months,Affiliate integration,Community Access,5
+Private Practice,3-5,100-500,High-volume intake,Oncology/Cardiology/Neurology,Unsure,Basic self-guided,Practice Plus,5
+Private Practice,16-50,100-500,Mixed services,Palliative/Complex,6+ months,Affiliate integration,Community Access,25
+Public Health Provider,6-15,<100,Mixed services,Palliative/Complex,Unsure,Basic self-guided,Enterprise Care,10
+Public Health Provider,51+,>1000,Group care,Palliative/Complex,6+ months,Real-time tracking,Enterprise Care,75
+Insurance Provider/EAS,6-15,<100,High-volume intake,Trauma-informed,1-3 months,Multidimensional tracking,Enterprise Access,10
+Insurance Provider/EAS,1-2,100-500,1:1 therapy,General,1-3 months,Affiliate integration,Enterprise Access,2
+Insurance Provider/EAS,51+,501-1000,1:1 therapy,General,Unsure,Affiliate integration,Enterprise Access,60
+Private Practice,16-50,100-500,1:1 therapy,Oncology/Cardiology/Neurology,6+ months,Basic self-guided,Community Access,25
+Public Health Provider,3-5,<100,Group care,General,6+ months,Affiliate integration,Enterprise Care,5
+Insurance Provider/EAS,6-15,>1000,Mixed services,General,6+ months,Affiliate integration,Enterprise Access,15
+Insurance Provider/EAS,51+,100-500,1:1 therapy,General,1-3 months,Multidimensional tracking,Enterprise Access,50
+Insurance Provider/EAS,3-5,>1000,1:1 therapy,Oncology/Cardiology/Neurology,3-6 months,Affiliate integration,Enterprise Access,7
+Insurance Provider/EAS,1-2,501-1000,Group care,Palliative/Complex,6+ months,Real-time tracking,Enterprise Access,2
+Home Care/Group Home,1-2,>1000,High-volume intake,General,Unsure,Real-time tracking,Community Access,3
+Private Practice,51+,>1000,High-volume intake,General,3-6 months,Affiliate integration,Community Access,75
+Private Practice,16-50,>1000,1:1 therapy,Palliative/Complex,1-3 months,Affiliate integration,Community Access,37
+Insurance Provider/EAS,16-50,<100,Mixed services,Palliative/Complex,Unsure,Multidimensional tracking,Enterprise Access,25
+Private Practice,51+,501-1000,Mixed services,General,6+ months,Multidimensional tracking,Community Access,60
+Private Practice,51+,>1000,Mixed services,Trauma-informed,1-3 months,Affiliate integration,Community Access,75
+Private Practice,16-50,501-1000,1:1 therapy,Oncology/Cardiology/Neurology,Unsure,Basic self-guided,Community Access,30
+Public Health Provider,16-50,<100,Mixed services,Trauma-informed,6+ months,Multidimensional tracking,Enterprise Care,25
+Private Practice,3-5,<100,Group care,General,1-3 months,Affiliate integration,Community Access,5
+Private Practice,51+,501-1000,Group care,Palliative/Complex,Unsure,Real-time tracking,Community Access,60
+Private Practice,16-50,<100,High-volume intake,General,3-6 months,Real-time tracking,Community Access,25
+Home Care/Group Home,1-2,>1000,1:1 therapy,Oncology/Cardiology/Neurology,3-6 months,Real-time tracking,Community Access,3
+Insurance Provider/EAS,6-15,<100,Group care,Trauma-informed,1-3 months,Multidimensional tracking,Enterprise Access,10
+Insurance Provider/EAS,3-5,<100,Group care,Oncology/Cardiology/Neurology,Unsure,Affiliate integration,Enterprise Access,5
+Insurance Provider/EAS,6-15,<100,1:1 therapy,Palliative/Complex,6+ months,Affiliate integration,Enterprise Access,10
+Private Practice,3-5,501-1000,Mixed services,Oncology/Cardiology/Neurology,3-6 months,Multidimensional tracking,Practice Plus,6
+Private Practice,51+,501-1000,High-volume intake,General,6+ months,Affiliate integration,Community Access,60
+Insurance Provider/EAS,3-5,501-1000,Group care,General,1-3 months,Basic self-guided,Enterprise Access,6
+Private Practice,1-2,501-1000,Mixed services,Trauma-informed,6+ months,Real-time tracking,Practice Plus,2
+Private Practice,16-50,>1000,High-volume intake,General,Unsure,Real-time tracking,Community Access,37
+Private Practice,51+,501-1000,Mixed services,General,6+ months,Basic self-guided,Community Access,60
+Home Care/Group Home,1-2,>1000,Group care,Oncology/Cardiology/Neurology,3-6 months,Multidimensional tracking,Community Access,3
+Insurance Provider/EAS,1-2,>1000,1:1 therapy,Oncology/Cardiology/Neurology,3-6 months,Multidimensional tracking,Enterprise Access,3
+Private Practice,1-2,100-500,Group care,General,3-6 months,Multidimensional tracking,Practice Plus,2
+Insurance Provider/EAS,1-2,>1000,Group care,General,1-3 months,Multidimensional tracking,Enterprise Access,3
+Private Practice,3-5,<100,Group care,Oncology/Cardiology/Neurology,1-3 months,Multidimensional tracking,Practice Plus,5
+Insurance Provider/EAS,3-5,>1000,1:1 therapy,General,Unsure,Affiliate integration,Enterprise Access,7
+Private Practice,1-2,501-1000,Mixed services,Trauma-informed,3-6 months,Affiliate integration,Community Access,2
+Private Practice,1-2,100-500,Group care,General,Unsure,Basic self-guided,Practice Plus,2
+Private Practice,51+,501-1000,Mixed services,General,3-6 months,Real-time tracking,Community Access,60
+Public Health Provider,3-5,>1000,Group care,Oncology/Cardiology/Neurology,Unsure,Real-time tracking,Enterprise Care,7
+Public Health Provider,16-50,100-500,Group care,Trauma-informed,1-3 months,Multidimensional tracking,Enterprise Care,25
+Private Practice,1-2,<100,Mixed services,Trauma-informed,3-6 months,Affiliate integration,Community Access,2
+Insurance Provider/EAS,51+,501-1000,Mixed services,General,Unsure,Basic self-guided,Enterprise Access,60
+Private Practice,16-50,>1000,1:1 therapy,Trauma-informed,3-6 months,Basic self-guided,Community Access,37
+Private Practice,16-50,<100,1:1 therapy,Oncology/Cardiology/Neurology,Unsure,Real-time tracking,Community Access,25
+Private Practice,6-15,>1000,High-volume intake,Trauma-informed,6+ months,Real-time tracking,Community Access,15
+Insurance Provider/EAS,1-2,<100,High-volume intake,General,Unsure,Affiliate integration,Enterprise Access,2
+Insurance Provider/EAS,51+,501-1000,Mixed services,Oncology/Cardiology/Neurology,1-3 months,Basic self-guided,Enterprise Access,60
+Insurance Provider/EAS,1-2,501-1000,Group care,Trauma-informed,1-3 months,Multidimensional tracking,Enterprise Access,2
+Insurance Provider/EAS,1-2,>1000,Mixed services,General,6+ months,Affiliate integration,Enterprise Access,3
+Home Care/Group Home,6-15,<100,Group care,Palliative/Complex,6+ months,Multidimensional tracking,Practice Plus,10
+Private Practice,1-2,501-1000,Group care,Oncology/Cardiology/Neurology,1-3 months,Basic self-guided,Practice Plus,2
+Private Practice,16-50,100-500,Mixed services,General,6+ months,Basic self-guided,Community Access,25
+Private Practice,6-15,<100,High-volume intake,General,Unsure,Basic self-guided,Practice Plus,10
+Insurance Provider/EAS,16-50,501-1000,Group care,Palliative/Complex,6+ months,Basic self-guided,Enterprise Access,30
+Public Health Provider,51+,>1000,1:1 therapy,General,Unsure,Affiliate integration,Enterprise Care,75
+Private Practice,6-15,501-1000,Mixed services,General,3-6 months,Real-time tracking,Practice Plus,12
+Insurance Provider/EAS,3-5,501-1000,High-volume intake,General,1-3 months,Multidimensional tracking,Enterprise Access,6
+Private Practice,6-15,>1000,High-volume intake,Oncology/Cardiology/Neurology,3-6 months,Affiliate integration,Community Access,15
+Private Practice,6-15,501-1000,Group care,Oncology/Cardiology/Neurology,6+ months,Multidimensional tracking,Practice Plus,12
+Private Practice,16-50,100-500,1:1 therapy,Trauma-informed,1-3 months,Affiliate integration,Community Access,25
+Public Health Provider,6-15,>1000,Group care,Palliative/Complex,6+ months,Affiliate integration,Enterprise Care,15
+Home Care/Group Home,16-50,<100,Mixed services,Trauma-informed,3-6 months,Multidimensional tracking,Community Access,25
+Private Practice,51+,<100,Group care,Trauma-informed,Unsure,Basic self-guided,Community Access,50
+Home Care/Group Home,51+,100-500,Group care,General,3-6 months,Multidimensional tracking,Community Access,50
+Private Practice,1-2,501-1000,Group care,General,Unsure,Real-time tracking,Practice Plus,2
+Private Practice,51+,501-1000,Group care,Oncology/Cardiology/Neurology,6+ months,Basic self-guided,Community Access,60
+Private Practice,51+,501-1000,1:1 therapy,Oncology/Cardiology/Neurology,3-6 months,Affiliate integration,Community Access,60
+Private Practice,1-2,501-1000,Mixed services,General,Unsure,Basic self-guided,Fresh Start,2
+Home Care/Group Home,1-2,501-1000,Group care,General,6+ months,Basic self-guided,Practice Plus,2
+Private Practice,16-50,100-500,Group care,Oncology/Cardiology/Neurology,1-3 months,Real-time tracking,Community Access,25
+Public Health Provider,1-2,100-500,1:1 therapy,General,3-6 months,Basic self-guided,Enterprise Care,2
+Private Practice,51+,100-500,Group care,Palliative/Complex,1-3 months,Basic self-guided,Community Access,50
+Insurance Provider/EAS,16-50,100-500,Mixed services,Trauma-informed,6+ months,Real-time tracking,Enterprise Access,25
+Insurance Provider/EAS,1-2,501-1000,Group care,General,1-3 months,Affiliate integration,Enterprise Access,2
+Insurance Provider/EAS,6-15,>1000,Group care,Oncology/Cardiology/Neurology,6+ months,Affiliate integration,Enterprise Access,15
+Private Practice,1-2,100-500,Mixed services,General,Unsure,Affiliate integration,Community Access,2
+Insurance Provider/EAS,6-15,501-1000,Mixed services,Trauma-informed,6+ months,Multidimensional tracking,Enterprise Access,12
+Private Practice,1-2,>1000,Group care,General,6+ months,Real-time tracking,Community Access,3
+Private Practice,16-50,100-500,Group care,General,6+ months,Basic self-guided,Community Access,25
+Insurance Provider/EAS,3-5,100-500,High-volume intake,General,3-6 months,Real-time tracking,Enterprise Access,5
+Private Practice,6-15,<100,Group care,Oncology/Cardiology/Neurology,1-3 months,Real-time tracking,Practice Plus,10
+Private Practice,1-2,100-500,1:1 therapy,Trauma-informed,3-6 months,Affiliate integration,Community Access,2
+Private Practice,51+,>1000,High-volume intake,General,6+ months,Real-time tracking,Community Access,75
+Private Practice,3-5,>1000,High-volume intake,General,3-6 months,Real-time tracking,Community Access,7
+Private Practice,6-15,100-500,Mixed services,Trauma-informed,3-6 months,Basic self-guided,Practice Plus,10
+Public Health Provider,3-5,501-1000,Mixed services,General,Unsure,Basic self-guided,Enterprise Care,6
+Private Practice,3-5,>1000,High-volume intake,Trauma-informed,1-3 months,Affiliate integration,Community Access,7
+Private Practice,6-15,>1000,High-volume intake,Oncology/Cardiology/Neurology,Unsure,Multidimensional tracking,Community Access,15
+Insurance Provider/EAS,1-2,<100,Group care,General,Unsure,Basic self-guided,Enterprise Access,2
+Private Practice,3-5,<100,Mixed services,Palliative/Complex,6+ months,Affiliate integration,Community Access,5
+Private Practice,51+,501-1000,High-volume intake,General,3-6 months,Multidimensional tracking,Community Access,60
+Insurance Provider/EAS,6-15,100-500,Mixed services,General,1-3 months,Basic self-guided,Enterprise Access,10
+Private Practice,3-5,>1000,High-volume intake,Oncology/Cardiology/Neurology,1-3 months,Affiliate integration,Community Access,7
+Insurance Provider/EAS,51+,501-1000,Mixed services,General,3-6 months,Basic self-guided,Enterprise Access,60
+Insurance Provider/EAS,3-5,<100,Group care,Oncology/Cardiology/Neurology,1-3 months,Multidimensional tracking,Enterprise Access,5
+Insurance Provider/EAS,6-15,>1000,Group care,Oncology/Cardiology/Neurology,1-3 months,Basic self-guided,Enterprise Access,15
+Home Care/Group Home,1-2,<100,Mixed services,General,Unsure,Real-time tracking,Practice Plus,2
+Insurance Provider/EAS,1-2,501-1000,High-volume intake,Trauma-informed,1-3 months,Affiliate integration,Enterprise Access,2
+Insurance Provider/EAS,51+,501-1000,Group care,General,6+ months,Multidimensional tracking,Enterprise Access,60
+Insurance Provider/EAS,16-50,501-1000,Mixed services,Oncology/Cardiology/Neurology,6+ months,Basic self-guided,Enterprise Access,30
+Private Practice,16-50,>1000,1:1 therapy,General,1-3 months,Real-time tracking,Community Access,37
+Insurance Provider/EAS,3-5,>1000,Group care,Trauma-informed,Unsure,Affiliate integration,Enterprise Access,7
+Private Practice,51+,<100,1:1 therapy,General,3-6 months,Affiliate integration,Community Access,50
+Insurance Provider/EAS,3-5,501-1000,1:1 therapy,Oncology/Cardiology/Neurology,6+ months,Multidimensional tracking,Enterprise Access,6
+Insurance Provider/EAS,3-5,501-1000,1:1 therapy,Trauma-informed,6+ months,Affiliate integration,Enterprise Access,6
+Private Practice,3-5,100-500,Group care,Palliative/Complex,Unsure,Multidimensional tracking,Practice Plus,5
+Private Practice,6-15,501-1000,High-volume intake,Trauma-informed,Unsure,Real-time tracking,Practice Plus,12
+Insurance Provider/EAS,16-50,501-1000,Mixed services,Oncology/Cardiology/Neurology,6+ months,Basic self-guided,Enterprise Access,30
+Public Health Provider,6-15,>1000,1:1 therapy,General,1-3 months,Real-time tracking,Enterprise Care,15
+Home Care/Group Home,6-15,>1000,Mixed services,Trauma-informed,3-6 months,Affiliate integration,Community Access,15
+Private Practice,16-50,>1000,High-volume intake,General,3-6 months,Multidimensional tracking,Community Access,37
+Insurance Provider/EAS,51+,100-500,Mixed services,General,1-3 months,Basic self-guided,Enterprise Access,50
+Private Practice,6-15,>1000,High-volume intake,Oncology/Cardiology/Neurology,6+ months,Multidimensional tracking,Community Access,15
+Private Practice,6-15,100-500,High-volume intake,General,1-3 months,Basic self-guided,Practice Plus,10
+Insurance Provider/EAS,6-15,<100,Mixed services,General,6+ months,Affiliate integration,Enterprise Access,10
+Insurance Provider/EAS,3-5,501-1000,Group care,General,6+ months,Real-time tracking,Enterprise Access,6
+Private Practice,51+,<100,1:1 therapy,Trauma-informed,3-6 months,Multidimensional tracking,Community Access,50
+Private Practice,51+,<100,High-volume intake,General,3-6 months,Basic self-guided,Community Access,50
+Insurance Provider/EAS,16-50,<100,Group care,General,3-6 months,Basic self-guided,Enterprise Access,25
+Private Practice,1-2,<100,Group care,General,6+ months,Real-time tracking,Practice Plus,2
+Insurance Provider/EAS,6-15,501-1000,1:1 therapy,Oncology/Cardiology/Neurology,Unsure,Affiliate integration,Enterprise Access,12
+Private Practice,1-2,>1000,1:1 therapy,General,6+ months,Real-time tracking,Community Access,3
+Private Practice,1-2,<100,1:1 therapy,Palliative/Complex,6+ months,Real-time tracking,Practice Plus,2
+Home Care/Group Home,3-5,<100,High-volume intake,Palliative/Complex,1-3 months,Multidimensional tracking,Practice Plus,5
+Insurance Provider/EAS,1-2,<100,Group care,General,3-6 months,Multidimensional tracking,Enterprise Access,2
+Insurance Provider/EAS,3-5,100-500,1:1 therapy,Oncology/Cardiology/Neurology,3-6 months,Basic self-guided,Enterprise Access,5
+Private Practice,1-2,>1000,High-volume intake,General,3-6 months,Real-time tracking,Community Access,3
+Private Practice,16-50,100-500,Mixed services,General,1-3 months,Basic self-guided,Community Access,25
+Private Practice,16-50,501-1000,Mixed services,Trauma-informed,1-3 months,Real-time tracking,Community Access,30
+Home Care/Group Home,6-15,<100,Mixed services,Trauma-informed,1-3 months,Multidimensional tracking,Practice Plus,10
+Public Health Provider,3-5,<100,1:1 therapy,General,1-3 months,Real-time tracking,Enterprise Care,5
+Insurance Provider/EAS,1-2,>1000,High-volume intake,General,3-6 months,Multidimensional tracking,Enterprise Access,3
+Home Care/Group Home,51+,501-1000,High-volume intake,Palliative/Complex,3-6 months,Basic self-guided,Community Access,60
+Insurance Provider/EAS,51+,>1000,1:1 therapy,General,Unsure,Basic self-guided,Enterprise Access,75
+Public Health Provider,3-5,100-500,Mixed services,Palliative/Complex,6+ months,Multidimensional tracking,Enterprise Care,5
+Public Health Provider,51+,501-1000,1:1 therapy,General,6+ months,Basic self-guided,Enterprise Care,60
+Public Health Provider,1-2,501-1000,Group care,General,6+ months,Basic self-guided,Enterprise Care,2
+Insurance Provider/EAS,1-2,<100,Group care,Oncology/Cardiology/Neurology,3-6 months,Affiliate integration,Enterprise Access,2
+Private Practice,3-5,501-1000,Group care,General,Unsure,Multidimensional tracking,Practice Plus,6
+Private Practice,6-15,>1000,High-volume intake,Oncology/Cardiology/Neurology,3-6 months,Multidimensional tracking,Community Access,15
+Public Health Provider,1-2,>1000,High-volume intake,Trauma-informed,6+ months,Affiliate integration,Enterprise Care,3
+Public Health Provider,1-2,501-1000,Group care,Trauma-informed,3-6 months,Affiliate integration,Enterprise Care,2
+Public Health Provider,6-15,>1000,Group care,General,Unsure,Affiliate integration,Enterprise Care,15
+Home Care/Group Home,51+,<100,High-volume intake,Palliative/Complex,3-6 months,Multidimensional tracking,Community Access,50
+Insurance Provider/EAS,3-5,501-1000,Group care,Trauma-informed,1-3 months,Affiliate integration,Enterprise Access,6
+Private Practice,6-15,100-500,High-volume intake,General,3-6 months,Multidimensional tracking,Practice Plus,10
+Public Health Provider,51+,100-500,High-volume intake,Palliative/Complex,1-3 months,Real-time tracking,Enterprise Care,50
+Private Practice,6-15,>1000,High-volume intake,Palliative/Complex,Unsure,Real-time tracking,Community Access,15
+Home Care/Group Home,1-2,<100,1:1 therapy,Oncology/Cardiology/Neurology,Unsure,Multidimensional tracking,Practice Plus,2
+Private Practice,6-15,501-1000,High-volume intake,General,Unsure,Affiliate integration,Community Access,12
+Public Health Provider,6-15,>1000,Group care,General,6+ months,Basic self-guided,Enterprise Care,15
+Public Health Provider,3-5,<100,1:1 therapy,General,Unsure,Basic self-guided,Enterprise Care,5
+Private Practice,1-2,501-1000,Mixed services,Palliative/Complex,Unsure,Affiliate integration,Community Access,2
+Public Health Provider,6-15,>1000,Group care,Trauma-informed,1-3 months,Basic self-guided,Enterprise Care,15
+Private Practice,1-2,>1000,Mixed services,General,3-6 months,Real-time tracking,Community Access,3
+Private Practice,3-5,501-1000,High-volume intake,Palliative/Complex,6+ months,Real-time tracking,Practice Plus,6
+Private Practice,6-15,100-500,High-volume intake,Palliative/Complex,3-6 months,Multidimensional tracking,Practice Plus,10
+Home Care/Group Home,51+,>1000,Mixed services,General,1-3 months,Basic self-guided,Community Access,75
+Home Care/Group Home,16-50,100-500,1:1 therapy,General,3-6 months,Real-time tracking,Community Access,25
+Private Practice,51+,<100,Group care,General,6+ months,Real-time tracking,Community Access,50
+Private Practice,51+,100-500,1:1 therapy,Oncology/Cardiology/Neurology,1-3 months,Multidimensional tracking,Community Access,50
+Private Practice,51+,100-500,High-volume intake,Palliative/Complex,3-6 months,Real-time tracking,Community Access,50
+Private Practice,6-15,<100,Mixed services,General,3-6 months,Multidimensional tracking,Practice Plus,10
+Private Practice,3-5,100-500,Group care,General,1-3 months,Basic self-guided,Practice Plus,5
+Insurance Provider/EAS,6-15,<100,1:1 therapy,General,1-3 months,Real-time tracking,Enterprise Access,10
+Insurance Provider/EAS,1-2,501-1000,Mixed services,Oncology/Cardiology/Neurology,3-6 months,Real-time tracking,Enterprise Access,2
+Public Health Provider,51+,100-500,High-volume intake,General,3-6 months,Affiliate integration,Enterprise Care,50
+Home Care/Group Home,1-2,<100,Mixed services,General,1-3 months,Real-time tracking,Practice Plus,2
+Insurance Provider/EAS,6-15,>1000,1:1 therapy,Trauma-informed,1-3 months,Affiliate integration,Enterprise Access,15
+Insurance Provider/EAS,3-5,501-1000,Group care,General,Unsure,Basic self-guided,Enterprise Access,6
+Private Practice,3-5,100-500,1:1 therapy,Trauma-informed,6+ months,Affiliate integration,Community Access,5
+Public Health Provider,1-2,501-1000,Group care,Palliative/Complex,6+ months,Real-time tracking,Enterprise Care,2
+Public Health Provider,3-5,>1000,High-volume intake,Palliative/Complex,3-6 months,Real-time tracking,Enterprise Care,7
+Private Practice,3-5,<100,Mixed services,Palliative/Complex,Unsure,Real-time tracking,Practice Plus,5
+Insurance Provider/EAS,51+,100-500,Group care,Palliative/Complex,6+ months,Multidimensional tracking,Enterprise Access,50
+Home Care/Group Home,6-15,100-500,Mixed services,Palliative/Complex,6+ months,Real-time tracking,Practice Plus,10
+Home Care/Group Home,1-2,<100,Mixed services,Oncology/Cardiology/Neurology,6+ months,Affiliate integration,Community Access,2
+Private Practice,1-2,501-1000,Mixed services,Oncology/Cardiology/Neurology,3-6 months,Basic self-guided,Practice Plus,2
+Home Care/Group Home,16-50,100-500,1:1 therapy,Trauma-informed,3-6 months,Real-time tracking,Community Access,25
+Public Health Provider,3-5,501-1000,Group care,General,3-6 months,Affiliate integration,Enterprise Care,6
+Insurance Provider/EAS,6-15,>1000,High-volume intake,General,Unsure,Real-time tracking,Enterprise Access,15
+Home Care/Group Home,51+,<100,Mixed services,Palliative/Complex,3-6 months,Basic self-guided,Community Access,50
